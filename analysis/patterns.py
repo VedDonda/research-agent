@@ -33,7 +33,13 @@ def compute() -> dict:
         "auth": v(r, "auth_methods") or [], "access": v(r, "access") or "unknown",
         "api": v(r, "api_type") or [], "mcp": v(r, "mcp") or "none_found",
         "verdict": r.get("verdict") or "unknown", "toolkit": r.get("composio_toolkit_exists"),
+        "researched": r.get("pass", 1) != 0,
     } for r in apps])
+    n_total = len(df)
+    # Patterns are computed over researched apps only: unresearched apps
+    # (free quota ran out) have no values and would read as "not self-serve".
+    not_researched = df.loc[~df["researched"], "app"].tolist()
+    df = df[df["researched"]]
     n = len(df)
 
     auth_counts = Counter(a for auths in df["auth"] for a in auths)
@@ -64,8 +70,10 @@ def compute() -> dict:
         f"{mcp.get('official', 0)} apps have an official MCP server, {mcp.get('community', 0)} only community ones, "
         f"{mcp.get('none_found', 0)} none found.",
     ]
+    headlines.insert(0, f"{n} of {n_total} apps were researched; the free LLM quota ran out before the other "
+                        f"{len(not_researched)}. All patterns below are over the {n} researched apps.")
     out = {
-        "n": n, "headlines": headlines,
+        "n": n, "n_total": n_total, "not_researched": not_researched, "headlines": headlines,
         "auth_counts": dict(auth_counts.most_common()),
         "access_counts": dict(Counter(df["access"]).most_common()),
         "access_by_category": access_by_cat, "verdict_by_category": verdict_by_cat,

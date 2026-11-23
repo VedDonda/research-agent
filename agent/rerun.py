@@ -145,7 +145,7 @@ def browser_round(records: list[AppRecord]) -> set[int]:
     return gained
 
 
-def run_pass2(apps_by_id: dict[int, dict], max_rerun: int = 15) -> list[AppRecord]:
+def run_pass2(apps_by_id: dict[int, dict], max_rerun: int = 8) -> list[AppRecord]:
     """max_rerun: cap on re-researched apps (time + free quota). The rest keep
     their flags and go to needs_human."""
     records = load_jsonl(PASS1)

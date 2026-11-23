@@ -16,76 +16,113 @@
   "pass1": {
    "fields": {
     "auth_methods": {
-     "exact": 5.0,
-     "partial": 12.5,
-     "holdout": 0.0,
-     "tuned": 10.0
+     "exact": 40.0,
+     "partial": 58.3,
+     "holdout": 20.0,
+     "tuned": 60.0
     },
     "access": {
-     "exact": 10.0,
-     "partial": 10.0,
-     "holdout": 10.0,
-     "tuned": 10.0
+     "exact": 50.0,
+     "partial": 50.0,
+     "holdout": 50.0,
+     "tuned": 50.0
     },
     "api_type": {
-     "exact": 10.0,
-     "partial": 11.7,
-     "holdout": 0.0,
-     "tuned": 20.0
+     "exact": 65.0,
+     "partial": 69.2,
+     "holdout": 70.0,
+     "tuned": 60.0
     },
     "mcp": {
-     "exact": 15.0,
-     "partial": 15.0,
-     "holdout": 10.0,
-     "tuned": 20.0
+     "exact": 65.0,
+     "partial": 65.0,
+     "holdout": 60.0,
+     "tuned": 70.0
     },
     "verdict": {
-     "exact": 15.0,
-     "partial": 15.0,
-     "holdout": 10.0,
-     "tuned": 20.0
+     "exact": 65.0,
+     "partial": 65.0,
+     "holdout": 70.0,
+     "tuned": 60.0
     }
    },
-   "overall": 11.0,
-   "holdout": 6.0,
-   "tuned": 16.0
+   "overall": 57.0,
+   "holdout": 54.0,
+   "tuned": 60.0
+  },
+  "pass2": {
+   "fields": {
+    "auth_methods": {
+     "exact": 40.0,
+     "partial": 58.3,
+     "holdout": 20.0,
+     "tuned": 60.0
+    },
+    "access": {
+     "exact": 50.0,
+     "partial": 50.0,
+     "holdout": 50.0,
+     "tuned": 50.0
+    },
+    "api_type": {
+     "exact": 65.0,
+     "partial": 69.2,
+     "holdout": 70.0,
+     "tuned": 60.0
+    },
+    "mcp": {
+     "exact": 65.0,
+     "partial": 65.0,
+     "holdout": 60.0,
+     "tuned": 70.0
+    },
+    "verdict": {
+     "exact": 65.0,
+     "partial": 65.0,
+     "holdout": 70.0,
+     "tuned": 60.0
+    }
+   },
+   "overall": 57.0,
+   "holdout": 54.0,
+   "tuned": 60.0
   },
   "final": {
    "fields": {
     "auth_methods": {
-     "exact": 5.0,
-     "partial": 12.5,
-     "holdout": 0.0,
-     "tuned": 10.0
+     "exact": 40.0,
+     "partial": 58.3,
+     "holdout": 20.0,
+     "tuned": 60.0
     },
     "access": {
-     "exact": 10.0,
-     "partial": 10.0,
-     "holdout": 10.0,
-     "tuned": 10.0
+     "exact": 50.0,
+     "partial": 50.0,
+     "holdout": 50.0,
+     "tuned": 50.0
     },
     "api_type": {
-     "exact": 10.0,
-     "partial": 11.7,
-     "holdout": 0.0,
-     "tuned": 20.0
+     "exact": 65.0,
+     "partial": 69.2,
+     "holdout": 70.0,
+     "tuned": 60.0
     },
     "mcp": {
-     "exact": 15.0,
-     "partial": 15.0,
-     "holdout": 10.0,
-     "tuned": 20.0
+     "exact": 65.0,
+     "partial": 65.0,
+     "holdout": 60.0,
+     "tuned": 70.0
     },
     "verdict": {
-     "exact": 15.0,
-     "partial": 15.0,
-     "holdout": 10.0,
-     "tuned": 20.0
+     "exact": 65.0,
+     "partial": 65.0,
+     "holdout": 70.0,
+     "tuned": 60.0
     }
    },
-   "overall": 11.0,
-   "holdout": 6.0,
-   "tuned": 16.0
+   "overall": 57.0,
+   "holdout": 54.0,
+   "tuned": 60.0
   }
  },
  "apps": [
@@ -211,33 +248,33 @@
    "fields": {
     "auth_methods": {
      "truth": "bearer_token",
-     "agent": null,
+     "agent": "bearer_token;oauth2",
      "hit": false,
-     "pass1": null
+     "pass1": "bearer_token;oauth2"
     },
     "access": {
      "truth": "paid_plan",
-     "agent": null,
+     "agent": "free_trial",
      "hit": false,
-     "pass1": null
+     "pass1": "free_trial"
     },
     "api_type": {
      "truth": "rest",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "rest",
+     "hit": true,
+     "pass1": "rest"
     },
     "mcp": {
      "truth": "official",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "official",
+     "hit": true,
+     "pass1": "official"
     },
     "verdict": {
      "truth": "ready_with_friction",
-     "agent": null,
+     "agent": "ready",
      "hit": false,
-     "pass1": null
+     "pass1": "ready"
     }
    }
   },
@@ -249,33 +286,33 @@
    "fields": {
     "auth_methods": {
      "truth": "oauth2",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "oauth2",
+     "hit": true,
+     "pass1": "oauth2"
     },
     "access": {
      "truth": "self_serve_free",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "self_serve_free",
+     "hit": true,
+     "pass1": "self_serve_free"
     },
     "api_type": {
      "truth": "rest",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "rest",
+     "hit": true,
+     "pass1": "rest"
     },
     "mcp": {
      "truth": "official",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "official",
+     "hit": true,
+     "pass1": "official"
     },
     "verdict": {
      "truth": "ready",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "ready",
+     "hit": true,
+     "pass1": "ready"
     }
    }
   },
@@ -287,33 +324,33 @@
    "fields": {
     "auth_methods": {
      "truth": "api_key;basic;jwt",
-     "agent": null,
+     "agent": "basic;jwt",
      "hit": false,
-     "pass1": null
+     "pass1": "basic;jwt"
     },
     "access": {
      "truth": "free_trial",
-     "agent": null,
+     "agent": "self_serve_free",
      "hit": false,
-     "pass1": null
+     "pass1": "self_serve_free"
     },
     "api_type": {
      "truth": "rest",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "rest",
+     "hit": true,
+     "pass1": "rest"
     },
     "mcp": {
      "truth": "official",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "official",
+     "hit": true,
+     "pass1": "official"
     },
     "verdict": {
      "truth": "ready",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "ready",
+     "hit": true,
+     "pass1": "ready"
     }
    }
   },
@@ -325,33 +362,33 @@
    "fields": {
     "auth_methods": {
      "truth": "api_key;oauth2",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "api_key;oauth2",
+     "hit": true,
+     "pass1": "api_key;oauth2"
     },
     "access": {
      "truth": "self_serve_free",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "self_serve_free",
+     "hit": true,
+     "pass1": "self_serve_free"
     },
     "api_type": {
      "truth": "rest",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "rest",
+     "hit": true,
+     "pass1": "rest"
     },
     "mcp": {
      "truth": "official",
-     "agent": null,
+     "agent": "none_found",
      "hit": false,
-     "pass1": null
+     "pass1": "none_found"
     },
     "verdict": {
      "truth": "ready",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "ready",
+     "hit": true,
+     "pass1": "ready"
     }
    }
   },
@@ -363,33 +400,33 @@
    "fields": {
     "auth_methods": {
      "truth": "oauth2",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "oauth2",
+     "hit": true,
+     "pass1": "oauth2"
     },
     "access": {
      "truth": "admin_approval",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "admin_approval",
+     "hit": true,
+     "pass1": "admin_approval"
     },
     "api_type": {
      "truth": "rest",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "rest",
+     "hit": true,
+     "pass1": "rest"
     },
     "mcp": {
      "truth": "community",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "community",
+     "hit": true,
+     "pass1": "community"
     },
     "verdict": {
      "truth": "ready_with_friction",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "ready_with_friction",
+     "hit": true,
+     "pass1": "ready_with_friction"
     }
    }
   },
@@ -553,33 +590,33 @@
    "fields": {
     "auth_methods": {
      "truth": "bearer_token;oauth2",
-     "agent": null,
+     "agent": "bearer_token",
      "hit": false,
-     "pass1": null
+     "pass1": "bearer_token"
     },
     "access": {
      "truth": "self_serve_free",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "self_serve_free",
+     "hit": true,
+     "pass1": "self_serve_free"
     },
     "api_type": {
      "truth": "rest",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "rest",
+     "hit": true,
+     "pass1": "rest"
     },
     "mcp": {
      "truth": "official",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "official",
+     "hit": true,
+     "pass1": "official"
     },
     "verdict": {
      "truth": "ready",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "ready",
+     "hit": true,
+     "pass1": "ready"
     }
    }
   },
@@ -591,33 +628,33 @@
    "fields": {
     "auth_methods": {
      "truth": "basic;bearer_token",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "basic;bearer_token",
+     "hit": true,
+     "pass1": "basic;bearer_token"
     },
     "access": {
      "truth": "self_serve_free",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "self_serve_free",
+     "hit": true,
+     "pass1": "self_serve_free"
     },
     "api_type": {
      "truth": "rest",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "rest",
+     "hit": true,
+     "pass1": "rest"
     },
     "mcp": {
      "truth": "official",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "official",
+     "hit": true,
+     "pass1": "official"
     },
     "verdict": {
      "truth": "ready",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "ready",
+     "hit": true,
+     "pass1": "ready"
     }
    }
   },
@@ -629,33 +666,33 @@
    "fields": {
     "auth_methods": {
      "truth": "oauth2;bearer_token",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "bearer_token;oauth2",
+     "hit": true,
+     "pass1": "bearer_token;oauth2"
     },
     "access": {
      "truth": "self_serve_free",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "self_serve_free",
+     "hit": true,
+     "pass1": "self_serve_free"
     },
     "api_type": {
      "truth": "rest",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "rest",
+     "hit": true,
+     "pass1": "rest"
     },
     "mcp": {
      "truth": "official",
-     "agent": null,
+     "agent": "none_found",
      "hit": false,
-     "pass1": null
+     "pass1": "none_found"
     },
     "verdict": {
      "truth": "ready",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "ready",
+     "hit": true,
+     "pass1": "ready"
     }
    }
   },
@@ -667,33 +704,33 @@
    "fields": {
     "auth_methods": {
      "truth": "oauth2;api_key",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "api_key;oauth2",
+     "hit": true,
+     "pass1": "api_key;oauth2"
     },
     "access": {
      "truth": "self_serve_free",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "self_serve_free",
+     "hit": true,
+     "pass1": "self_serve_free"
     },
     "api_type": {
      "truth": "graphql",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "graphql",
+     "hit": true,
+     "pass1": "graphql"
     },
     "mcp": {
      "truth": "official",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "official",
+     "hit": true,
+     "pass1": "official"
     },
     "verdict": {
      "truth": "ready",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "ready",
+     "hit": true,
+     "pass1": "ready"
     }
    }
   },
@@ -705,33 +742,33 @@
    "fields": {
     "auth_methods": {
      "truth": "api_key;oauth2",
-     "agent": null,
+     "agent": "api_key",
      "hit": false,
-     "pass1": null
+     "pass1": "api_key"
     },
     "access": {
      "truth": "self_serve_free",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "self_serve_free",
+     "hit": true,
+     "pass1": "self_serve_free"
     },
     "api_type": {
      "truth": "rest",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "rest",
+     "hit": true,
+     "pass1": "rest"
     },
     "mcp": {
      "truth": "official",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "official",
+     "hit": true,
+     "pass1": "official"
     },
     "verdict": {
      "truth": "ready",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "ready",
+     "hit": true,
+     "pass1": "ready"
     }
    }
   },
@@ -743,33 +780,33 @@
    "fields": {
     "auth_methods": {
      "truth": "oauth2",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "oauth2",
+     "hit": true,
+     "pass1": "oauth2"
     },
     "access": {
      "truth": "admin_approval",
-     "agent": null,
+     "agent": "self_serve_free",
      "hit": false,
-     "pass1": null
+     "pass1": "self_serve_free"
     },
     "api_type": {
      "truth": "rest",
-     "agent": null,
+     "agent": "graphql;rest",
      "hit": false,
-     "pass1": null
+     "pass1": "graphql;rest"
     },
     "mcp": {
      "truth": "official",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "official",
+     "hit": true,
+     "pass1": "official"
     },
     "verdict": {
      "truth": "ready_with_friction",
-     "agent": null,
+     "agent": "ready",
      "hit": false,
-     "pass1": null
+     "pass1": "ready"
     }
    }
   },
@@ -781,33 +818,33 @@
    "fields": {
     "auth_methods": {
      "truth": "oauth2",
-     "agent": null,
+     "agent": "api_key",
      "hit": false,
-     "pass1": null
+     "pass1": "api_key"
     },
     "access": {
      "truth": "contact_sales",
-     "agent": null,
+     "agent": "self_serve_free",
      "hit": false,
-     "pass1": null
+     "pass1": "self_serve_free"
     },
     "api_type": {
      "truth": "none",
-     "agent": null,
+     "agent": "rest",
      "hit": false,
-     "pass1": null
+     "pass1": "rest"
     },
     "mcp": {
      "truth": "official",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "official",
+     "hit": true,
+     "pass1": "official"
     },
     "verdict": {
      "truth": "ready_with_friction",
-     "agent": null,
+     "agent": "ready",
      "hit": false,
-     "pass1": null
+     "pass1": "ready"
     }
    }
   },
@@ -819,33 +856,33 @@
    "fields": {
     "auth_methods": {
      "truth": "bearer_token",
-     "agent": null,
+     "agent": "api_key;oauth2",
      "hit": false,
-     "pass1": null
+     "pass1": "api_key;oauth2"
     },
     "access": {
      "truth": "free_trial",
-     "agent": null,
+     "agent": "self_serve_free",
      "hit": false,
-     "pass1": null
+     "pass1": "self_serve_free"
     },
     "api_type": {
      "truth": "rest",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "rest",
+     "hit": true,
+     "pass1": "rest"
     },
     "mcp": {
      "truth": "official",
-     "agent": null,
+     "agent": "none_found",
      "hit": false,
-     "pass1": null
+     "pass1": "none_found"
     },
     "verdict": {
      "truth": "ready",
-     "agent": null,
-     "hit": false,
-     "pass1": null
+     "agent": "ready",
+     "hit": true,
+     "pass1": "ready"
     }
    }
   }

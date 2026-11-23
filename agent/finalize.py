@@ -46,6 +46,18 @@ def flat(rec: dict) -> dict:
 def main() -> None:
     records = load_jsonl(PASS2 if PASS2.exists() else PASS1)
     by_id = {r.id: r for r in records}
+    # Apps the free LLM quota didn't reach are listed honestly as not
+    # researched: no values are filled in for them.
+    from agent.common import load_apps
+    from agent.extract import _toolkit_exists
+    from agent.schema import AppRecord
+    for app in load_apps():
+        if app["id"] not in by_id:
+            by_id[app["id"]] = AppRecord(
+                id=app["id"], app=app["app"], category=app["category"], hint=app["hint"],
+                composio_toolkit_exists=_toolkit_exists(app["id"]), needs_human=True,
+                human_note="not researched: the free LLM quota ran out before this app was extracted",
+                verdict_reason="not researched (quota)", pass_=0)
     applied = []
     if OVERRIDES.exists():
         for o in pd.read_csv(OVERRIDES).fillna("").to_dict(orient="records"):

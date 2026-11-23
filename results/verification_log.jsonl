@@ -1,0 +1,1138 @@
+{"id": 1, "app": "Salesforce", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 1, "app": "Salesforce", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 1, "app": "Salesforce", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 1, "app": "Salesforce", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 1, "app": "Salesforce", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 1, "app": "Salesforce", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 1, "app": "Salesforce", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 1, "app": "Salesforce", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 1, "app": "Salesforce", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "official MCP claimed without an MCP URL on the vendor's own site"}
+{"id": 1, "app": "Salesforce", "round": 1, "field": "auth_methods", "check": "critic", "status": "not_enough_info", "detail": "Quote mentions OAuth2 only, no explicit bearer token."}
+{"id": 1, "app": "Salesforce", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Quote indicates steps can be done in Developer Edition, implying self‑serve free."}
+{"id": 1, "app": "Salesforce", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote directly states REST API provides access."}
+{"id": 1, "app": "Salesforce", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote refers to native MCPs, implying official MCP support."}
+{"id": 2, "app": "HubSpot", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 2, "app": "HubSpot", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 2, "app": "HubSpot", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 2, "app": "HubSpot", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 2, "app": "HubSpot", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 2, "app": "HubSpot", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 2, "app": "HubSpot", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 2, "app": "HubSpot", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 2, "app": "HubSpot", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 2, "app": "HubSpot", "round": 1, "field": "auth_methods", "check": "critic", "status": "not_enough_info", "detail": "Quote lacks mention of bearer_token"}
+{"id": 2, "app": "HubSpot", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote doesn't state free self‑serve API credentials"}
+{"id": 2, "app": "HubSpot", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote does not specify REST API"}
+{"id": 2, "app": "HubSpot", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote confirms HubSpot provides its own MCP servers"}
+{"id": 3, "app": "Pipedrive", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 3, "app": "Pipedrive", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 3, "app": "Pipedrive", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 3, "app": "Pipedrive", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 3, "app": "Pipedrive", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 3, "app": "Pipedrive", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 3, "app": "Pipedrive", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 3, "app": "Pipedrive", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 3, "app": "Pipedrive", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 3, "app": "Pipedrive", "round": 1, "field": "auth_methods", "check": "critic", "status": "not_enough_info", "detail": "Quote only mentions API token, no mention of OAuth2."}
+{"id": 3, "app": "Pipedrive", "round": 1, "field": "access", "check": "critic", "status": "contradicted", "detail": "Quote describes a free trial, not a self‑serve free account."}
+{"id": 3, "app": "Pipedrive", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote explicitly calls it a RESTful API."}
+{"id": 3, "app": "Pipedrive", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote states the code is open‑sourced, implying community‑only."}
+{"id": 4, "app": "Attio", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 4, "app": "Attio", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 4, "app": "Attio", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 4, "app": "Attio", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 4, "app": "Attio", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 4, "app": "Attio", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 4, "app": "Attio", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 4, "app": "Attio", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 4, "app": "Attio", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 4, "app": "Attio", "round": 1, "field": "auth_methods", "check": "critic", "status": "not_enough_info", "detail": "Quote only mentions OAuth2 and API key, not basic or bearer token"}
+{"id": 4, "app": "Attio", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Quote requires app review before sharing, implying admin approval"}
+{"id": 4, "app": "Attio", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote explicitly refers to the Attio REST API"}
+{"id": 4, "app": "Attio", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote states Attio MCP uses OAuth, indicating official MCP"}
+{"id": 5, "app": "Twenty", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 5, "app": "Twenty", "round": 1, "field": "auth_methods", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 5, "app": "Twenty", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 5, "app": "Twenty", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 5, "app": "Twenty", "round": 1, "field": "mcp", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 5, "app": "Twenty", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 5, "app": "Twenty", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 5, "app": "Twenty", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 5, "app": "Twenty", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 5, "app": "Twenty", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote explicitly mentions Bearer token usage."}
+{"id": 5, "app": "Twenty", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote only mentions free self‑hosting, not API free access."}
+{"id": 5, "app": "Twenty", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote states both REST and GraphQL are available."}
+{"id": 5, "app": "Twenty", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote recommends using the Twenty MCP server, implying official MCP."}
+{"id": 6, "app": "Podio", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 6, "app": "Podio", "round": 1, "field": "auth_methods", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 6, "app": "Podio", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 6, "app": "Podio", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 6, "app": "Podio", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 6, "app": "Podio", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 6, "app": "Podio", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 6, "app": "Podio", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 6, "app": "Podio", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 6, "app": "Podio", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote lists OAuth flows and username/password implying oauth2 and basic"}
+{"id": 6, "app": "Podio", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Quote says free accounts have full API access"}
+{"id": 6, "app": "Podio", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote shows HTTP header usage typical of REST"}
+{"id": 6, "app": "Podio", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote provides official MCP server URL"}
+{"id": 7, "app": "Zoho CRM", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 7, "app": "Zoho CRM", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 7, "app": "Zoho CRM", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 7, "app": "Zoho CRM", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 7, "app": "Zoho CRM", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 7, "app": "Zoho CRM", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 7, "app": "Zoho CRM", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 7, "app": "Zoho CRM", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 7, "app": "Zoho CRM", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 7, "app": "Zoho CRM", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote explicitly states OAuth 2.0 is used."}
+{"id": 7, "app": "Zoho CRM", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote describes freemium features but not API credential availability."}
+{"id": 7, "app": "Zoho CRM", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote mentions flexible RESTful endpoints."}
+{"id": 7, "app": "Zoho CRM", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote says pre-built MCP servers are provided by Zoho."}
+{"id": 8, "app": "Close", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 8, "app": "Close", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 8, "app": "Close", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 8, "app": "Close", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 8, "app": "Close", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 8, "app": "Close", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 8, "app": "Close", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 8, "app": "Close", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "value is unknown"}
+{"id": 8, "app": "Close", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote lists API Keys and OAuth 2.0 as supported methods."}
+{"id": 8, "app": "Close", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Quote shows API keys can be created self‑service in account settings."}
+{"id": 8, "app": "Close", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote explicitly states Close uses REST conventions."}
+{"id": 9, "app": "Copper", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 9, "app": "Copper", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 9, "app": "Copper", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 9, "app": "Copper", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 9, "app": "Copper", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 9, "app": "Copper", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 9, "app": "Copper", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 9, "app": "Copper", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 9, "app": "Copper", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 9, "app": "Copper", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote lists API keys and OAuth2.0 as access methods."}
+{"id": 9, "app": "Copper", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote mentions contacting them, not explicit admin approval requirement."}
+{"id": 9, "app": "Copper", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Curl example shows REST endpoint."}
+{"id": 9, "app": "Copper", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote states Copper is launching an official MCP server."}
+{"id": 56, "app": "Firecrawl", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 56, "app": "Firecrawl", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 56, "app": "Firecrawl", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 56, "app": "Firecrawl", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 56, "app": "Firecrawl", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 56, "app": "Firecrawl", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 56, "app": "Firecrawl", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 56, "app": "Firecrawl", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 56, "app": "Firecrawl", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 56, "app": "Firecrawl", "round": 1, "field": "auth_methods", "check": "critic", "status": "not_enough_info", "detail": "Quote only mentions API key, no evidence of OAuth2."}
+{"id": 56, "app": "Firecrawl", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote shows API key usage but doesn't state free self‑serve access."}
+{"id": 56, "app": "Firecrawl", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote unrelated to REST; provides no info on API type."}
+{"id": 56, "app": "Firecrawl", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote explicitly calls it an MCP endpoint, implying official MCP."}
+{"id": 10, "app": "DealCloud", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 10, "app": "DealCloud", "round": 1, "field": "auth_methods", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 10, "app": "DealCloud", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 10, "app": "DealCloud", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 10, "app": "DealCloud", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 10, "app": "DealCloud", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 10, "app": "DealCloud", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 10, "app": "DealCloud", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 10, "app": "DealCloud", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "official MCP claimed without an MCP URL on the vendor's own site"}
+{"id": 10, "app": "DealCloud", "round": 1, "field": "auth_methods", "check": "critic", "status": "not_enough_info", "detail": "Quote only mentions API key, no mention of OAuth2"}
+{"id": 10, "app": "DealCloud", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Requires admin to assign permissions for API access"}
+{"id": 10, "app": "DealCloud", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote explicitly references REST APIs"}
+{"id": 10, "app": "DealCloud", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote states a default MCP server is provided out‑of‑the‑box"}
+{"id": 11, "app": "Zendesk", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 11, "app": "Zendesk", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 11, "app": "Zendesk", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 11, "app": "Zendesk", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 11, "app": "Zendesk", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 11, "app": "Zendesk", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 11, "app": "Zendesk", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 11, "app": "Zendesk", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 11, "app": "Zendesk", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 11, "app": "Zendesk", "round": 1, "field": "auth_methods", "check": "critic", "status": "not_enough_info", "detail": "Quote only mentions OAuth, not all listed methods"}
+{"id": 11, "app": "Zendesk", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote gives UI navigation, no info on free self‑serve access"}
+{"id": 11, "app": "Zendesk", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote mentions using Postman, not the API type"}
+{"id": 11, "app": "Zendesk", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote states no official MCP, uses open‑source server"}
+{"id": 57, "app": "Bright Data", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 57, "app": "Bright Data", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 57, "app": "Bright Data", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 57, "app": "Bright Data", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 57, "app": "Bright Data", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 57, "app": "Bright Data", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 57, "app": "Bright Data", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 57, "app": "Bright Data", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 57, "app": "Bright Data", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 57, "app": "Bright Data", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote explicitly mentions using an API key."}
+{"id": 57, "app": "Bright Data", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote only mentions free credit, not self‑serve free API credentials."}
+{"id": 57, "app": "Bright Data", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote states compliance with REST API."}
+{"id": 57, "app": "Bright Data", "round": 1, "field": "mcp", "check": "critic", "status": "contradicted", "detail": "Quote points to a GitHub repo, not an official MCP server."}
+{"id": 58, "app": "Sherlock", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 58, "app": "Sherlock", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 58, "app": "Sherlock", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 58, "app": "Sherlock", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 58, "app": "Sherlock", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 58, "app": "Sherlock", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 58, "app": "Sherlock", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "rule verdict ready_with_friction != LLM verdict ready"}
+{"id": 58, "app": "Sherlock", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 58, "app": "Sherlock", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 58, "app": "Sherlock", "round": 1, "field": "auth_methods", "check": "critic", "status": "not_enough_info", "detail": "Quote gives no auth info"}
+{"id": 58, "app": "Sherlock", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote only shows repo URL, no access details"}
+{"id": 58, "app": "Sherlock", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote states it is a REST API"}
+{"id": 58, "app": "Sherlock", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote identifies MCP server as community-provided"}
+{"id": 59, "app": "Waterfall.io", "round": 1, "field": "one_liner", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 59, "app": "Waterfall.io", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 59, "app": "Waterfall.io", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 59, "app": "Waterfall.io", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 59, "app": "Waterfall.io", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 59, "app": "Waterfall.io", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 59, "app": "Waterfall.io", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 59, "app": "Waterfall.io", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "value is unknown"}
+{"id": 59, "app": "Waterfall.io", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote specifies using an API key."}
+{"id": 59, "app": "Waterfall.io", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Quote says access requires approval."}
+{"id": 59, "app": "Waterfall.io", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "URL indicates a REST endpoint."}
+{"id": 12, "app": "Intercom", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 12, "app": "Intercom", "round": 1, "field": "auth_methods", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 12, "app": "Intercom", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 12, "app": "Intercom", "round": 1, "field": "api_type", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 12, "app": "Intercom", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 12, "app": "Intercom", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 12, "app": "Intercom", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 12, "app": "Intercom", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 12, "app": "Intercom", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 12, "app": "Intercom", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote mentions OAuth (OAuth2) and Access Tokens (bearer token)."}
+{"id": 12, "app": "Intercom", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote only mentions OAuth option, not free self‑serve access."}
+{"id": 12, "app": "Intercom", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote lists API endpoints, implying a REST API."}
+{"id": 12, "app": "Intercom", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote provides official mcp.intercom.com endpoint."}
+{"id": 60, "app": "Clay", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 60, "app": "Clay", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 60, "app": "Clay", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 60, "app": "Clay", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 60, "app": "Clay", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 60, "app": "Clay", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 60, "app": "Clay", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 60, "app": "Clay", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 60, "app": "Clay", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "official MCP claimed without an MCP URL on the vendor's own site"}
+{"id": 60, "app": "Clay", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote explicitly mentions JWT Authentication"}
+{"id": 60, "app": "Clay", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote unrelated to access model"}
+{"id": 60, "app": "Clay", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote does not specify REST vs other types"}
+{"id": 60, "app": "Clay", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote states Clay is shipped as an MCP connector"}
+{"id": 61, "app": "GitHub", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 61, "app": "GitHub", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 61, "app": "GitHub", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 61, "app": "GitHub", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 61, "app": "GitHub", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 61, "app": "GitHub", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 61, "app": "GitHub", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 61, "app": "GitHub", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 61, "app": "GitHub", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "official MCP claimed without an MCP URL on the vendor's own site"}
+{"id": 61, "app": "GitHub", "round": 1, "field": "auth_methods", "check": "critic", "status": "not_enough_info", "detail": "Quote lacks mention of basic and jwt auth methods"}
+{"id": 61, "app": "GitHub", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Quote shows users can create tokens themselves"}
+{"id": 61, "app": "GitHub", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote directly references REST API documentation"}
+{"id": 61, "app": "GitHub", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote refers to remote GitHub MCP server, implying official"}
+{"id": 13, "app": "Freshdesk", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 13, "app": "Freshdesk", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 13, "app": "Freshdesk", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 13, "app": "Freshdesk", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 13, "app": "Freshdesk", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 13, "app": "Freshdesk", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 13, "app": "Freshdesk", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 13, "app": "Freshdesk", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 13, "app": "Freshdesk", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 13, "app": "Freshdesk", "round": 1, "field": "auth_methods", "check": "critic", "status": "not_enough_info", "detail": "Quote only mentions API key, no evidence for OAuth2"}
+{"id": 13, "app": "Freshdesk", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote mentions free program but not self‑serve API credentials"}
+{"id": 13, "app": "Freshdesk", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote shows content type, not API style"}
+{"id": 13, "app": "Freshdesk", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote states Freshworks MCP integration is generally available"}
+{"id": 14, "app": "Front", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 14, "app": "Front", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 14, "app": "Front", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 14, "app": "Front", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 14, "app": "Front", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 14, "app": "Front", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 14, "app": "Front", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 14, "app": "Front", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 14, "app": "Front", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 14, "app": "Front", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote says API tokens, implying api_key."}
+{"id": 14, "app": "Front", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Quote mentions a free sandbox for development."}
+{"id": 14, "app": "Front", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote states APIs are often REST over HTTP."}
+{"id": 14, "app": "Front", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote announces Front MCP server, indicating official MCP."}
+{"id": 62, "app": "Vercel", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 62, "app": "Vercel", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 62, "app": "Vercel", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 62, "app": "Vercel", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 62, "app": "Vercel", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 62, "app": "Vercel", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 62, "app": "Vercel", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 62, "app": "Vercel", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 62, "app": "Vercel", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 62, "app": "Vercel", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote explicitly mentions Bearer token usage."}
+{"id": 62, "app": "Vercel", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote only mentions free plan, not API self‑serve access."}
+{"id": 62, "app": "Vercel", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote states REST API endpoints are available."}
+{"id": 62, "app": "Vercel", "round": 1, "field": "mcp", "check": "critic", "status": "not_enough_info", "detail": "Quote shows deployment capability, not that Vercel is the official MCP server."}
+{"id": 15, "app": "Pylon", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 15, "app": "Pylon", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 15, "app": "Pylon", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 15, "app": "Pylon", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 15, "app": "Pylon", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 15, "app": "Pylon", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 15, "app": "Pylon", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 15, "app": "Pylon", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 15, "app": "Pylon", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 15, "app": "Pylon", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote lists OAuth 2.0 and API token, matching both methods."}
+{"id": 15, "app": "Pylon", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Quote explicitly states free trials are offered."}
+{"id": 15, "app": "Pylon", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote mentions authentication but not the API protocol type."}
+{"id": 15, "app": "Pylon", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote refers to a Pylon MCP Server, implying an official MCP."}
+{"id": 16, "app": "LiveAgent", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 16, "app": "LiveAgent", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 16, "app": "LiveAgent", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 16, "app": "LiveAgent", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 16, "app": "LiveAgent", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 16, "app": "LiveAgent", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 16, "app": "LiveAgent", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 16, "app": "LiveAgent", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "value is unknown"}
+{"id": 16, "app": "LiveAgent", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote defines API key as integration method"}
+{"id": 16, "app": "LiveAgent", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Quote explicitly mentions 30‑day free trial"}
+{"id": 16, "app": "LiveAgent", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "URL example shows REST endpoint"}
+{"id": 63, "app": "Netlify", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 63, "app": "Netlify", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 63, "app": "Netlify", "round": 1, "field": "access", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 63, "app": "Netlify", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 63, "app": "Netlify", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 63, "app": "Netlify", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 63, "app": "Netlify", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 63, "app": "Netlify", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 63, "app": "Netlify", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 63, "app": "Netlify", "round": 1, "field": "auth_methods", "check": "critic", "status": "not_enough_info", "detail": "Only OAuth2 mentioned, no bearer token"}
+{"id": 63, "app": "Netlify", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Quote says you can generate a personal access token"}
+{"id": 63, "app": "Netlify", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Describes REST endpoint URL"}
+{"id": 63, "app": "Netlify", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Announces Netlify MCP Server release"}
+{"id": 17, "app": "Plain", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 17, "app": "Plain", "round": 1, "field": "auth_methods", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 17, "app": "Plain", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 17, "app": "Plain", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 17, "app": "Plain", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 17, "app": "Plain", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 17, "app": "Plain", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 17, "app": "Plain", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 17, "app": "Plain", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 17, "app": "Plain", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote mentions API keys and OAuth app."}
+{"id": 17, "app": "Plain", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote shows UI steps but no cost info."}
+{"id": 17, "app": "Plain", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote states Plain is built on GraphQL API."}
+{"id": 17, "app": "Plain", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote references official Plain MCP server URL."}
+{"id": 64, "app": "Cloudflare", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 64, "app": "Cloudflare", "round": 1, "field": "auth_methods", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 64, "app": "Cloudflare", "round": 1, "field": "access", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 64, "app": "Cloudflare", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 64, "app": "Cloudflare", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 64, "app": "Cloudflare", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 64, "app": "Cloudflare", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 64, "app": "Cloudflare", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "value is unknown"}
+{"id": 64, "app": "Cloudflare", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote states API tokens used for authentication, implying bearer token."}
+{"id": 64, "app": "Cloudflare", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Dashboard navigation shows users can obtain tokens themselves."}
+{"id": 64, "app": "Cloudflare", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Listed operations correspond to REST endpoints."}
+{"id": 18, "app": "Help Scout", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 18, "app": "Help Scout", "round": 1, "field": "auth_methods", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 18, "app": "Help Scout", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 18, "app": "Help Scout", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 18, "app": "Help Scout", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 18, "app": "Help Scout", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 18, "app": "Help Scout", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 18, "app": "Help Scout", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 18, "app": "Help Scout", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "official MCP claimed without an MCP URL on the vendor's own site"}
+{"id": 18, "app": "Help Scout", "round": 1, "field": "auth_methods", "check": "critic", "status": "not_enough_info", "detail": "Quote mentions API keys only, no OAuth2."}
+{"id": 18, "app": "Help Scout", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Free plan lacks API access, implying paid plan required."}
+{"id": 18, "app": "Help Scout", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote shows HTTPS endpoint but doesn't specify REST."}
+{"id": 18, "app": "Help Scout", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote states MCP server is now generally available (official)."}
+{"id": 19, "app": "Gorgias", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 19, "app": "Gorgias", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 19, "app": "Gorgias", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 19, "app": "Gorgias", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 19, "app": "Gorgias", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 19, "app": "Gorgias", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 19, "app": "Gorgias", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 19, "app": "Gorgias", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 19, "app": "Gorgias", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 19, "app": "Gorgias", "round": 1, "field": "auth_methods", "check": "critic", "status": "contradicted", "detail": "Quote mentions basic and API key only, no oauth2."}
+{"id": 19, "app": "Gorgias", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote says available on all plans, not whether free self‑serve."}
+{"id": 19, "app": "Gorgias", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote explicitly calls it a REST API."}
+{"id": 19, "app": "Gorgias", "round": 1, "field": "mcp", "check": "critic", "status": "not_enough_info", "detail": "Quote does not specify official or community MCP."}
+{"id": 65, "app": "Supabase", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 65, "app": "Supabase", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 65, "app": "Supabase", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 65, "app": "Supabase", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 65, "app": "Supabase", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 65, "app": "Supabase", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 65, "app": "Supabase", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 65, "app": "Supabase", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "value is unknown"}
+{"id": 65, "app": "Supabase", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote defines API key as authentication method."}
+{"id": 65, "app": "Supabase", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote mentions free project pause but not self‑serve free access."}
+{"id": 65, "app": "Supabase", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote confirms existence of a REST API."}
+{"id": 20, "app": "Gladly", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 20, "app": "Gladly", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 20, "app": "Gladly", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 20, "app": "Gladly", "round": 1, "field": "api_type", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 20, "app": "Gladly", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 20, "app": "Gladly", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 20, "app": "Gladly", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 20, "app": "Gladly", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 20, "app": "Gladly", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 20, "app": "Gladly", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote explicitly mentions token-based Basic Authentication."}
+{"id": 20, "app": "Gladly", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote describes token creation but does not state free self‑serve availability."}
+{"id": 20, "app": "Gladly", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "URL points to REST documentation, confirming REST API."}
+{"id": 20, "app": "Gladly", "round": 1, "field": "mcp", "check": "critic", "status": "not_enough_info", "detail": "Quote explains MCP function but does not specify official vs community source."}
+{"id": 66, "app": "Neo4j", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 66, "app": "Neo4j", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 66, "app": "Neo4j", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 66, "app": "Neo4j", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 66, "app": "Neo4j", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 66, "app": "Neo4j", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 66, "app": "Neo4j", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 66, "app": "Neo4j", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 66, "app": "Neo4j", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 66, "app": "Neo4j", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote explicitly says both basic and bearer are supported."}
+{"id": 66, "app": "Neo4j", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote mentions credentials but not free self‑serve availability."}
+{"id": 66, "app": "Neo4j", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote describes auth header, not API type."}
+{"id": 66, "app": "Neo4j", "round": 1, "field": "mcp", "check": "critic", "status": "not_enough_info", "detail": "Quote describes sandbox MCP server but doesn't state it is official."}
+{"id": 21, "app": "Slack", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 21, "app": "Slack", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 21, "app": "Slack", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 21, "app": "Slack", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 21, "app": "Slack", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 21, "app": "Slack", "round": 1, "field": "auth_methods", "check": "consistency", "status": "fail", "detail": "oauth2 claimed but no oauth/authorize/client_id in any page"}
+{"id": 21, "app": "Slack", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 21, "app": "Slack", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 21, "app": "Slack", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "official MCP claimed without an MCP URL on the vendor's own site"}
+{"id": 21, "app": "Slack", "round": 1, "field": "auth_methods", "check": "critic", "status": "not_enough_info", "detail": "Quote 'Slack CLI' doesn't mention oauth2 or api_key."}
+{"id": 21, "app": "Slack", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Quote implies self‑serve access to APIs and sandboxes."}
+{"id": 21, "app": "Slack", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote 'Reference' gives no info on REST."}
+{"id": 21, "app": "Slack", "round": 1, "field": "mcp", "check": "critic", "status": "contradicted", "detail": "Quote says third‑party agents use Slack MCP, not official vendor server."}
+{"id": 67, "app": "Snowflake", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 67, "app": "Snowflake", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 67, "app": "Snowflake", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 67, "app": "Snowflake", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 67, "app": "Snowflake", "round": 1, "field": "mcp", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 67, "app": "Snowflake", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 67, "app": "Snowflake", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 67, "app": "Snowflake", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 67, "app": "Snowflake", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 67, "app": "Snowflake", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote mentions OAuth token and Bearer token."}
+{"id": 67, "app": "Snowflake", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote gives header usage, no info on free self‑serve access."}
+{"id": 67, "app": "Snowflake", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote describes Snowflake REST APIs."}
+{"id": 67, "app": "Snowflake", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote refers to Snowflake-managed MCP server, indicating official."}
+{"id": 68, "app": "MongoDB Atlas", "round": 1, "field": "one_liner", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 68, "app": "MongoDB Atlas", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 68, "app": "MongoDB Atlas", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 68, "app": "MongoDB Atlas", "round": 1, "field": "api_type", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 68, "app": "MongoDB Atlas", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 68, "app": "MongoDB Atlas", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 68, "app": "MongoDB Atlas", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 68, "app": "MongoDB Atlas", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 68, "app": "MongoDB Atlas", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 68, "app": "MongoDB Atlas", "round": 1, "field": "auth_methods", "check": "critic", "status": "not_enough_info", "detail": "Quote only mentions OAuth2, no API key info"}
+{"id": 68, "app": "MongoDB Atlas", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Quote states free-forever tier implying self‑serve free"}
+{"id": 68, "app": "MongoDB Atlas", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote mentions Atlas API but doesn't specify REST"}
+{"id": 68, "app": "MongoDB Atlas", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote calls it the official MCP server implementation"}
+{"id": 22, "app": "Twilio", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 22, "app": "Twilio", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 22, "app": "Twilio", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 22, "app": "Twilio", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 22, "app": "Twilio", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 22, "app": "Twilio", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 22, "app": "Twilio", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 22, "app": "Twilio", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 22, "app": "Twilio", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 22, "app": "Twilio", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote describes basic auth using API key credentials, implying both methods."}
+{"id": 22, "app": "Twilio", "round": 1, "field": "access", "check": "critic", "status": "contradicted", "detail": "Quote mentions a free trial, not unrestricted self‑serve free access."}
+{"id": 22, "app": "Twilio", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote explicitly refers to the Twilio REST API."}
+{"id": 22, "app": "Twilio", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote states an official MCP server hosted by Twilio."}
+{"id": 69, "app": "Datadog", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 69, "app": "Datadog", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 69, "app": "Datadog", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 69, "app": "Datadog", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 69, "app": "Datadog", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 69, "app": "Datadog", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 69, "app": "Datadog", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 69, "app": "Datadog", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "value is unknown"}
+{"id": 69, "app": "Datadog", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote explicitly mentions API key authentication."}
+{"id": 69, "app": "Datadog", "round": 1, "field": "access", "check": "critic", "status": "contradicted", "detail": "Quote describes a time‑limited trial, not free unlimited access."}
+{"id": 69, "app": "Datadog", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote states the API is an HTTP REST API."}
+{"id": 23, "app": "Zoho Cliq", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 23, "app": "Zoho Cliq", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 23, "app": "Zoho Cliq", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 23, "app": "Zoho Cliq", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 23, "app": "Zoho Cliq", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 23, "app": "Zoho Cliq", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 23, "app": "Zoho Cliq", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 23, "app": "Zoho Cliq", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 23, "app": "Zoho Cliq", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 23, "app": "Zoho Cliq", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote explicitly states OAuth 2.0 authentication."}
+{"id": 23, "app": "Zoho Cliq", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote mentions app registration but not free self‑serve availability."}
+{"id": 23, "app": "Zoho Cliq", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote references REST API documentation."}
+{"id": 23, "app": "Zoho Cliq", "round": 1, "field": "mcp", "check": "critic", "status": "not_enough_info", "detail": "Quote only mentions connecting MCP, not its official status."}
+{"id": 70, "app": "Sentry", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 70, "app": "Sentry", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 70, "app": "Sentry", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 70, "app": "Sentry", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 70, "app": "Sentry", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 70, "app": "Sentry", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 70, "app": "Sentry", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 70, "app": "Sentry", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 70, "app": "Sentry", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "official MCP claimed without an MCP URL on the vendor's own site"}
+{"id": 70, "app": "Sentry", "round": 1, "field": "auth_methods", "check": "critic", "status": "not_enough_info", "detail": "Quote only mentions auth header, no method details"}
+{"id": 70, "app": "Sentry", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote mentions token requirement, not free self‑serve access"}
+{"id": 70, "app": "Sentry", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote gives version info, no REST indication"}
+{"id": 70, "app": "Sentry", "round": 1, "field": "mcp", "check": "critic", "status": "not_enough_info", "detail": "Quote is a URL, does not state official vs community"}
+{"id": 24, "app": "Lark (Larksuite)", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 24, "app": "Lark (Larksuite)", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 24, "app": "Lark (Larksuite)", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 24, "app": "Lark (Larksuite)", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 24, "app": "Lark (Larksuite)", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 24, "app": "Lark (Larksuite)", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 24, "app": "Lark (Larksuite)", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 24, "app": "Lark (Larksuite)", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 24, "app": "Lark (Larksuite)", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 24, "app": "Lark (Larksuite)", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote mentions authorization code flow and user_access_token, implying OAuth2 and bearer token."}
+{"id": 24, "app": "Lark (Larksuite)", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote only says 'Developer Console' without details on free self‑serve access."}
+{"id": 24, "app": "Lark (Larksuite)", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "URL shows a REST endpoint, indicating REST API type."}
+{"id": 24, "app": "Lark (Larksuite)", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote states lark-mcp is provided by Lark Open Platform, indicating official MCP."}
+{"id": 71, "app": "Notion", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 71, "app": "Notion", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 71, "app": "Notion", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 71, "app": "Notion", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 71, "app": "Notion", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 71, "app": "Notion", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 71, "app": "Notion", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 71, "app": "Notion", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "value is unknown"}
+{"id": 71, "app": "Notion", "round": 1, "field": "auth_methods", "check": "critic", "status": "not_enough_info", "detail": "Quote only mentions OAuth, no evidence for bearer token."}
+{"id": 71, "app": "Notion", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Quote shows you can obtain a token yourself."}
+{"id": 71, "app": "Notion", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote does not specify API type."}
+{"id": 25, "app": "Pumble", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 25, "app": "Pumble", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 25, "app": "Pumble", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 25, "app": "Pumble", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 25, "app": "Pumble", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 25, "app": "Pumble", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 25, "app": "Pumble", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 25, "app": "Pumble", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 25, "app": "Pumble", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 25, "app": "Pumble", "round": 1, "field": "auth_methods", "check": "critic", "status": "not_enough_info", "detail": "Quote only mentions API key, no bearer token evidence"}
+{"id": 25, "app": "Pumble", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote lacks info on free account or self‑serve credentials"}
+{"id": 25, "app": "Pumble", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "HTTP requests imply REST API"}
+{"id": 25, "app": "Pumble", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote refers to Pumble's own MCP server"}
+{"id": 72, "app": "Airtable", "round": 1, "field": "one_liner", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 72, "app": "Airtable", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 72, "app": "Airtable", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 72, "app": "Airtable", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 72, "app": "Airtable", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 72, "app": "Airtable", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 72, "app": "Airtable", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 72, "app": "Airtable", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 72, "app": "Airtable", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 72, "app": "Airtable", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote lists OAuth and PATs, matching oauth2 and api_key."}
+{"id": 72, "app": "Airtable", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Available to all users on all plans implies free self‑serve access."}
+{"id": 72, "app": "Airtable", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "\"Web API\" indicates a REST‑style API."}
+{"id": 72, "app": "Airtable", "round": 1, "field": "mcp", "check": "critic", "status": "not_enough_info", "detail": "Quote mentions MCP server but does not specify official vs community."}
+{"id": 26, "app": "Discord", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 26, "app": "Discord", "round": 1, "field": "auth_methods", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 26, "app": "Discord", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 26, "app": "Discord", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 26, "app": "Discord", "round": 1, "field": "mcp", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 26, "app": "Discord", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 26, "app": "Discord", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 26, "app": "Discord", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 26, "app": "Discord", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 26, "app": "Discord", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote lists OAuth2, bot token (API key), and basic auth."}
+{"id": 26, "app": "Discord", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Quote shows self‑service registration without sales contact."}
+{"id": 26, "app": "Discord", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote mentions HTTP/TLS but does not specify REST."}
+{"id": 26, "app": "Discord", "round": 1, "field": "mcp", "check": "critic", "status": "not_enough_info", "detail": "Quote only gives a name, no indication of community vs official."}
+{"id": 73, "app": "Linear", "round": 1, "field": "one_liner", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 73, "app": "Linear", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 73, "app": "Linear", "round": 1, "field": "access", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 73, "app": "Linear", "round": 1, "field": "api_type", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 73, "app": "Linear", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 73, "app": "Linear", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 73, "app": "Linear", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 73, "app": "Linear", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 73, "app": "Linear", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 73, "app": "Linear", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote lists OAuth 2.0 and personal API keys."}
+{"id": 73, "app": "Linear", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Quote states the service is free for everyone."}
+{"id": 73, "app": "Linear", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote explicitly says API is built using GraphQL."}
+{"id": 73, "app": "Linear", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote gives vendor-hosted MCP URL as default."}
+{"id": 27, "app": "Telegram", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 27, "app": "Telegram", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 27, "app": "Telegram", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 27, "app": "Telegram", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 27, "app": "Telegram", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 27, "app": "Telegram", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 27, "app": "Telegram", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 27, "app": "Telegram", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 27, "app": "Telegram", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 27, "app": "Telegram", "round": 1, "field": "auth_methods", "check": "critic", "status": "not_enough_info", "detail": "Quote mentions api_id/api_hash, not api_key or bearer token"}
+{"id": 27, "app": "Telegram", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Quote states API is free for all developers"}
+{"id": 27, "app": "Telegram", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote only describes a header, no mention of REST or RPC"}
+{"id": 27, "app": "Telegram", "round": 1, "field": "mcp", "check": "critic", "status": "not_enough_info", "detail": "Quote lists transports but doesn't specify community or official"}
+{"id": 74, "app": "Jira", "round": 1, "field": "one_liner", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 74, "app": "Jira", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 74, "app": "Jira", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 74, "app": "Jira", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 74, "app": "Jira", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 74, "app": "Jira", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 74, "app": "Jira", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 74, "app": "Jira", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 74, "app": "Jira", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 74, "app": "Jira", "round": 1, "field": "auth_methods", "check": "critic", "status": "not_enough_info", "detail": "Quote mentions OAuth but not specifically OAuth2"}
+{"id": 74, "app": "Jira", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Quote shows self‑service token creation"}
+{"id": 74, "app": "Jira", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote explicitly says REST API"}
+{"id": 74, "app": "Jira", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote calls it the official implementation"}
+{"id": 28, "app": "WhatsApp Business", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 28, "app": "WhatsApp Business", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 28, "app": "WhatsApp Business", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 28, "app": "WhatsApp Business", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 28, "app": "WhatsApp Business", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 28, "app": "WhatsApp Business", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 28, "app": "WhatsApp Business", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 28, "app": "WhatsApp Business", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 28, "app": "WhatsApp Business", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 28, "app": "WhatsApp Business", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote mentions generating access tokens, implying bearer token usage"}
+{"id": 28, "app": "WhatsApp Business", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Quote requires adding to App Review, indicating admin approval"}
+{"id": 28, "app": "WhatsApp Business", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote provides a REST endpoint URL"}
+{"id": 28, "app": "WhatsApp Business", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote references WhatsApp Business Tools MCP server, indicating official MCP"}
+{"id": 29, "app": "Aircall", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 29, "app": "Aircall", "round": 1, "field": "auth_methods", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 29, "app": "Aircall", "round": 1, "field": "access", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 29, "app": "Aircall", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 29, "app": "Aircall", "round": 1, "field": "mcp", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 29, "app": "Aircall", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 29, "app": "Aircall", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 29, "app": "Aircall", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 29, "app": "Aircall", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 29, "app": "Aircall", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote mentions both Basic Auth and OAuth flow."}
+{"id": 29, "app": "Aircall", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "API key created from account settings, no sales contact."}
+{"id": 29, "app": "Aircall", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote explicitly calls it a classic REST API."}
+{"id": 29, "app": "Aircall", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Provides official MCP URL for Aircall."}
+{"id": 75, "app": "Asana", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 75, "app": "Asana", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 75, "app": "Asana", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 75, "app": "Asana", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 75, "app": "Asana", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 75, "app": "Asana", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 75, "app": "Asana", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 75, "app": "Asana", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 75, "app": "Asana", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 75, "app": "Asana", "round": 1, "field": "auth_methods", "check": "critic", "status": "not_enough_info", "detail": "Quote only mentions PAT, no oauth2 or api_key info"}
+{"id": 75, "app": "Asana", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Indicates self‑service token creation via console"}
+{"id": 75, "app": "Asana", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Base URL implies REST endpoints"}
+{"id": 75, "app": "Asana", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Provides official MCP server URL"}
+{"id": 76, "app": "Monday.com", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 76, "app": "Monday.com", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 76, "app": "Monday.com", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 76, "app": "Monday.com", "round": 1, "field": "api_type", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 76, "app": "Monday.com", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 76, "app": "Monday.com", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 76, "app": "Monday.com", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 76, "app": "Monday.com", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 76, "app": "Monday.com", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 76, "app": "Monday.com", "round": 1, "field": "auth_methods", "check": "critic", "status": "not_enough_info", "detail": "Quote only mentions OAuth2, no bearer token info"}
+{"id": 76, "app": "Monday.com", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote vague, doesn't confirm free self‑serve access"}
+{"id": 76, "app": "Monday.com", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote explicitly mentions GraphQL API"}
+{"id": 76, "app": "Monday.com", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote refers to monday MCP server, implying official"}
+{"id": 30, "app": "Vonage", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 30, "app": "Vonage", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 30, "app": "Vonage", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 30, "app": "Vonage", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 30, "app": "Vonage", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 30, "app": "Vonage", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 30, "app": "Vonage", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 30, "app": "Vonage", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 30, "app": "Vonage", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 30, "app": "Vonage", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote explicitly says JWT and Basic are supported"}
+{"id": 30, "app": "Vonage", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Quote mentions free credit and no credit card, implying free self‑serve access"}
+{"id": 30, "app": "Vonage", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "OpenAPI spec indicates a REST API"}
+{"id": 30, "app": "Vonage", "round": 1, "field": "mcp", "check": "critic", "status": "not_enough_info", "detail": "Quote describes an MCP server but does not state it is official"}
+{"id": 77, "app": "ClickUp", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 77, "app": "ClickUp", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 77, "app": "ClickUp", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 77, "app": "ClickUp", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 77, "app": "ClickUp", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 77, "app": "ClickUp", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 77, "app": "ClickUp", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 77, "app": "ClickUp", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 77, "app": "ClickUp", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "official MCP claimed without an MCP URL on the vendor's own site"}
+{"id": 77, "app": "ClickUp", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote mentions personal token (api_key) and OAuth."}
+{"id": 77, "app": "ClickUp", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Quote says personal token can be used for personal use, implying free self‑serve."}
+{"id": 77, "app": "ClickUp", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote does not specify REST vs other protocols."}
+{"id": 77, "app": "ClickUp", "round": 1, "field": "mcp", "check": "critic", "status": "contradicted", "detail": "Quote describes MCP as open‑source standard, not an official vendor server."}
+{"id": 78, "app": "Coda", "round": 1, "field": "one_liner", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 78, "app": "Coda", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 78, "app": "Coda", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 78, "app": "Coda", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 78, "app": "Coda", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 78, "app": "Coda", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 78, "app": "Coda", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 78, "app": "Coda", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "value is unknown"}
+{"id": 78, "app": "Coda", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote indicates bearer token header usage"}
+{"id": 78, "app": "Coda", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote mentions API key generation but not free self‑serve access"}
+{"id": 78, "app": "Coda", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote discusses pricing, not API type"}
+{"id": 31, "app": "Google Ads", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 31, "app": "Google Ads", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 31, "app": "Google Ads", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 31, "app": "Google Ads", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 31, "app": "Google Ads", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 31, "app": "Google Ads", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 31, "app": "Google Ads", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 31, "app": "Google Ads", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 31, "app": "Google Ads", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 31, "app": "Google Ads", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote shows OAuth2 client credentials."}
+{"id": 31, "app": "Google Ads", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Quote mentions application review process for access."}
+{"id": 31, "app": "Google Ads", "round": 1, "field": "api_type", "check": "critic", "status": "contradicted", "detail": "Quote lists both REST and client libraries, not SDK‑only."}
+{"id": 31, "app": "Google Ads", "round": 1, "field": "mcp", "check": "critic", "status": "not_enough_info", "detail": "Quote does not mention MCP or official server."}
+{"id": 79, "app": "Smartsheet", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 79, "app": "Smartsheet", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 79, "app": "Smartsheet", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 79, "app": "Smartsheet", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 79, "app": "Smartsheet", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 79, "app": "Smartsheet", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 79, "app": "Smartsheet", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 79, "app": "Smartsheet", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 79, "app": "Smartsheet", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 79, "app": "Smartsheet", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote explicitly says API uses access tokens (API keys)."}
+{"id": 79, "app": "Smartsheet", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Quote lists required paid plans, implying paid_plan needed."}
+{"id": 79, "app": "Smartsheet", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote describes HTTP Bearer token usage, typical of REST APIs."}
+{"id": 79, "app": "Smartsheet", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote references installing the Smartsheet MCP server, indicating official MCP."}
+{"id": 32, "app": "Meta Ads", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 32, "app": "Meta Ads", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 32, "app": "Meta Ads", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 32, "app": "Meta Ads", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 32, "app": "Meta Ads", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 32, "app": "Meta Ads", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 32, "app": "Meta Ads", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 32, "app": "Meta Ads", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 32, "app": "Meta Ads", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 32, "app": "Meta Ads", "round": 1, "field": "auth_methods", "check": "critic", "status": "not_enough_info", "detail": "Quote only mentions access token, not specific methods"}
+{"id": 32, "app": "Meta Ads", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Mentions full access after App Review, implying admin approval"}
+{"id": 32, "app": "Meta Ads", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "URL does not specify REST API type"}
+{"id": 32, "app": "Meta Ads", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Describes Meta-hosted MCP server, indicating official"}
+{"id": 80, "app": "Harvest", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 80, "app": "Harvest", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 80, "app": "Harvest", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 80, "app": "Harvest", "round": 1, "field": "api_type", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 80, "app": "Harvest", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 80, "app": "Harvest", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 80, "app": "Harvest", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 80, "app": "Harvest", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 80, "app": "Harvest", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 80, "app": "Harvest", "round": 1, "field": "auth_methods", "check": "critic", "status": "not_enough_info", "detail": "Quote only mentions access token, not OAuth2."}
+{"id": 80, "app": "Harvest", "round": 1, "field": "access", "check": "critic", "status": "contradicted", "detail": "Quote describes a trial, not free self‑serve access."}
+{"id": 80, "app": "Harvest", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote lists endpoints but does not state REST."}
+{"id": 80, "app": "Harvest", "round": 1, "field": "mcp", "check": "critic", "status": "not_enough_info", "detail": "Quote mentions an MCP server but not whether it is community or official."}
+{"id": 81, "app": "Stripe", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 81, "app": "Stripe", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 81, "app": "Stripe", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 81, "app": "Stripe", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 81, "app": "Stripe", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 81, "app": "Stripe", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 81, "app": "Stripe", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 81, "app": "Stripe", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 81, "app": "Stripe", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 81, "app": "Stripe", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote directly states API keys are used"}
+{"id": 81, "app": "Stripe", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote mentions sandbox but not free self‑serve credential access"}
+{"id": 81, "app": "Stripe", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote explicitly says API is organized around REST"}
+{"id": 81, "app": "Stripe", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote refers to Stripe’s own MCP server, indicating official"}
+{"id": 82, "app": "Plaid", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 82, "app": "Plaid", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 82, "app": "Plaid", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 82, "app": "Plaid", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 82, "app": "Plaid", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 82, "app": "Plaid", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 82, "app": "Plaid", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 82, "app": "Plaid", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 82, "app": "Plaid", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 82, "app": "Plaid", "round": 1, "field": "auth_methods", "check": "critic", "status": "not_enough_info", "detail": "Quote only mentions OAuth2, no evidence for api_key"}
+{"id": 82, "app": "Plaid", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Requires applying for production access, implying admin approval"}
+{"id": 82, "app": "Plaid", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Describes JSON over HTTP, indicating REST"}
+{"id": 82, "app": "Plaid", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "References connecting to a Dashboard MCP server"}
+{"id": 83, "app": "Binance", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 83, "app": "Binance", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 83, "app": "Binance", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 83, "app": "Binance", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 83, "app": "Binance", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 83, "app": "Binance", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 83, "app": "Binance", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 83, "app": "Binance", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "value is unknown"}
+{"id": 83, "app": "Binance", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote defines API key as authentication credential."}
+{"id": 83, "app": "Binance", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote lacks info on free self‑serve availability."}
+{"id": 83, "app": "Binance", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote does not mention REST endpoints."}
+{"id": 84, "app": "Paygent Connect", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 84, "app": "Paygent Connect", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 84, "app": "Paygent Connect", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 84, "app": "Paygent Connect", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 84, "app": "Paygent Connect", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 84, "app": "Paygent Connect", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 84, "app": "Paygent Connect", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 84, "app": "Paygent Connect", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "value is unknown"}
+{"id": 84, "app": "Paygent Connect", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote explicitly mentions Bearer token authentication."}
+{"id": 84, "app": "Paygent Connect", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote describes key retrieval but doesn't state free self‑serve availability."}
+{"id": 84, "app": "Paygent Connect", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote directly states the API is REST."}
+{"id": 85, "app": "iPayX", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 85, "app": "iPayX", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 85, "app": "iPayX", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 85, "app": "iPayX", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 85, "app": "iPayX", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 85, "app": "iPayX", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 85, "app": "iPayX", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 85, "app": "iPayX", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 85, "app": "iPayX", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "official MCP claimed without an MCP URL on the vendor's own site"}
+{"id": 85, "app": "iPayX", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote explicitly mentions API Key."}
+{"id": 85, "app": "iPayX", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Quote says free key is obtainable directly."}
+{"id": 85, "app": "iPayX", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote doesn't specify REST."}
+{"id": 85, "app": "iPayX", "round": 1, "field": "mcp", "check": "critic", "status": "not_enough_info", "detail": "Quote doesn't clarify official vs community."}
+{"id": 86, "app": "QuickBooks", "round": 1, "field": "one_liner", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 86, "app": "QuickBooks", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 86, "app": "QuickBooks", "round": 1, "field": "access", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 86, "app": "QuickBooks", "round": 1, "field": "api_type", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 86, "app": "QuickBooks", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 86, "app": "QuickBooks", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 86, "app": "QuickBooks", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 86, "app": "QuickBooks", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 86, "app": "QuickBooks", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "official MCP claimed without an MCP URL on the vendor's own site"}
+{"id": 86, "app": "QuickBooks", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote directly states OAuth 2.0 as standard protocol"}
+{"id": 86, "app": "QuickBooks", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote mentions plugin but not free self‑serve access"}
+{"id": 86, "app": "QuickBooks", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote references both REST and GraphQL APIs"}
+{"id": 86, "app": "QuickBooks", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote calls it the official QuickBooks MCP server"}
+{"id": 87, "app": "Xero", "round": 1, "field": "one_liner", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 87, "app": "Xero", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 87, "app": "Xero", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 87, "app": "Xero", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 87, "app": "Xero", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 87, "app": "Xero", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 87, "app": "Xero", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 87, "app": "Xero", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 87, "app": "Xero", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 87, "app": "Xero", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote confirms OAuth 2.0 support"}
+{"id": 87, "app": "Xero", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote only mentions signing up, no free self‑serve detail"}
+{"id": 87, "app": "Xero", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote does not specify REST or other type"}
+{"id": 87, "app": "Xero", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote states Xero runs the hosted MCP server"}
+{"id": 88, "app": "Brex", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 88, "app": "Brex", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 88, "app": "Brex", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 88, "app": "Brex", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 88, "app": "Brex", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 88, "app": "Brex", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 88, "app": "Brex", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 88, "app": "Brex", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "value is unknown"}
+{"id": 88, "app": "Brex", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote explicitly mentions OAuth 2.0 compliance"}
+{"id": 88, "app": "Brex", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote only describes token creation, no info on free self‑serve access"}
+{"id": 88, "app": "Brex", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote mentions making API calls but does not specify REST"}
+{"id": 89, "app": "Ramp", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 89, "app": "Ramp", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 89, "app": "Ramp", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 89, "app": "Ramp", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 89, "app": "Ramp", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 89, "app": "Ramp", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 89, "app": "Ramp", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 89, "app": "Ramp", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "value is unknown"}
+{"id": 89, "app": "Ramp", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote explicitly states OAuth 2.0 usage"}
+{"id": 89, "app": "Ramp", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote only says \"Get started\" without details on free self‑serve access"}
+{"id": 89, "app": "Ramp", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "OpenAPI schema implies a RESTful API"}
+{"id": 90, "app": "PitchBook", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 90, "app": "PitchBook", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 90, "app": "PitchBook", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 90, "app": "PitchBook", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 90, "app": "PitchBook", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 90, "app": "PitchBook", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 90, "app": "PitchBook", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 90, "app": "PitchBook", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 90, "app": "PitchBook", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "official MCP claimed without an MCP URL on the vendor's own site"}
+{"id": 90, "app": "PitchBook", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote mentions API key and authentication token."}
+{"id": 90, "app": "PitchBook", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Quote says request API access via Direct Data team."}
+{"id": 90, "app": "PitchBook", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote describes a RESTful implementation."}
+{"id": 90, "app": "PitchBook", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote references PitchBook Essential MCP server as official."}
+{"id": 91, "app": "NotebookLM", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 91, "app": "NotebookLM", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 91, "app": "NotebookLM", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 91, "app": "NotebookLM", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 91, "app": "NotebookLM", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 91, "app": "NotebookLM", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 91, "app": "NotebookLM", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 91, "app": "NotebookLM", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "value is unknown"}
+{"id": 91, "app": "NotebookLM", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote shows Bearer token usage"}
+{"id": 91, "app": "NotebookLM", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote mentions free credits, not self‑serve free API access"}
+{"id": 91, "app": "NotebookLM", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote explicitly states REST"}
+{"id": 92, "app": "Otter AI", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 92, "app": "Otter AI", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 92, "app": "Otter AI", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 92, "app": "Otter AI", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 92, "app": "Otter AI", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 92, "app": "Otter AI", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 92, "app": "Otter AI", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 92, "app": "Otter AI", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 92, "app": "Otter AI", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 92, "app": "Otter AI", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote states API key used for Bearer token authentication"}
+{"id": 92, "app": "Otter AI", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote shows key creation but doesn't specify free self‑serve"}
+{"id": 92, "app": "Otter AI", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Curl example demonstrates REST endpoint"}
+{"id": 92, "app": "Otter AI", "round": 1, "field": "mcp", "check": "critic", "status": "not_enough_info", "detail": "Quote mentions MCP but not whether it's official"}
+{"id": 93, "app": "Fathom", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 93, "app": "Fathom", "round": 1, "field": "auth_methods", "check": "evidence", "status": "fail", "detail": "no valid source cited"}
+{"id": 93, "app": "Fathom", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 93, "app": "Fathom", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 93, "app": "Fathom", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 93, "app": "Fathom", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 93, "app": "Fathom", "round": 1, "field": "api_type", "check": "consistency", "status": "fail", "detail": "value is unknown"}
+{"id": 93, "app": "Fathom", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "official MCP claimed without an MCP URL on the vendor's own site"}
+{"id": 93, "app": "Fathom", "round": 1, "field": "auth_methods", "check": "critic", "status": "not_enough_info", "detail": "No quote provided"}
+{"id": 93, "app": "Fathom", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Quote states free forever, implying self‑serve free access"}
+{"id": 93, "app": "Fathom", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote explicitly mentions an official MCP server"}
+{"id": 94, "app": "Consensus", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 94, "app": "Consensus", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 94, "app": "Consensus", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 94, "app": "Consensus", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 94, "app": "Consensus", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 94, "app": "Consensus", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 94, "app": "Consensus", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 94, "app": "Consensus", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 94, "app": "Consensus", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 94, "app": "Consensus", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote states both API key and Bearer token are usable authentication methods"}
+{"id": 94, "app": "Consensus", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Free plan provides API access with 30 calls/month"}
+{"id": 94, "app": "Consensus", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote does not specify REST or other protocol"}
+{"id": 94, "app": "Consensus", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote references official MCP server endpoint"}
+{"id": 95, "app": "Reducto", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 95, "app": "Reducto", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 95, "app": "Reducto", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 95, "app": "Reducto", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 95, "app": "Reducto", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 95, "app": "Reducto", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 95, "app": "Reducto", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 95, "app": "Reducto", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 95, "app": "Reducto", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "official MCP claimed without an MCP URL on the vendor's own site"}
+{"id": 95, "app": "Reducto", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote indicates obtaining an API key."}
+{"id": 95, "app": "Reducto", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Quote describes self‑service sign‑up and key creation."}
+{"id": 95, "app": "Reducto", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote mentions OpenAPI spec, implying a REST API."}
+{"id": 95, "app": "Reducto", "round": 1, "field": "mcp", "check": "critic", "status": "not_enough_info", "detail": "Quote only says \"MCP Server\" without specifying official or community."}
+{"id": 96, "app": "Devin", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 96, "app": "Devin", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 96, "app": "Devin", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 96, "app": "Devin", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 96, "app": "Devin", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 96, "app": "Devin", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 96, "app": "Devin", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 96, "app": "Devin", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 96, "app": "Devin", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 96, "app": "Devin", "round": 1, "field": "auth_methods", "check": "critic", "status": "not_enough_info", "detail": "Only token mentioned, no api_key reference"}
+{"id": 96, "app": "Devin", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Free plan with quota implies self‑serve free access"}
+{"id": 96, "app": "Devin", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote describes API but doesn't specify REST"}
+{"id": 96, "app": "Devin", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote confirms existence of official Devin MCP server"}
+{"id": 97, "app": "higgsfield", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 97, "app": "higgsfield", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 97, "app": "higgsfield", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 97, "app": "higgsfield", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 97, "app": "higgsfield", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 97, "app": "higgsfield", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 97, "app": "higgsfield", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 97, "app": "higgsfield", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 97, "app": "higgsfield", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 97, "app": "higgsfield", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote mentions hf-api-key header, confirming API key auth."}
+{"id": 97, "app": "higgsfield", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote shows credential creation but doesn't state free self‑serve availability."}
+{"id": 97, "app": "higgsfield", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote lists language examples, not confirming REST API type."}
+{"id": 97, "app": "higgsfield", "round": 1, "field": "mcp", "check": "critic", "status": "not_enough_info", "detail": "Quote discusses connector and plan balance, no mention of official MCP."}
+{"id": 34, "app": "GoHighLevel", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 34, "app": "GoHighLevel", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 34, "app": "GoHighLevel", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 34, "app": "GoHighLevel", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 34, "app": "GoHighLevel", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 34, "app": "GoHighLevel", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 34, "app": "GoHighLevel", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 34, "app": "GoHighLevel", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "value is unknown"}
+{"id": 34, "app": "GoHighLevel", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote explicitly mentions Authorization Code Grant flow, an OAuth2 method."}
+{"id": 34, "app": "GoHighLevel", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote only says to sign up; does not state free self‑serve access."}
+{"id": 34, "app": "GoHighLevel", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote mentions calling APIs but does not specify REST type."}
+{"id": 98, "app": "Mermaid CLI", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 98, "app": "Mermaid CLI", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 98, "app": "Mermaid CLI", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 98, "app": "Mermaid CLI", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 98, "app": "Mermaid CLI", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 98, "app": "Mermaid CLI", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 98, "app": "Mermaid CLI", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 98, "app": "Mermaid CLI", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "value is unknown"}
+{"id": 98, "app": "Mermaid CLI", "round": 1, "field": "auth_methods", "check": "critic", "status": "not_enough_info", "detail": "Quote discusses installation, not authentication methods."}
+{"id": 98, "app": "Mermaid CLI", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote gives no information about public API availability."}
+{"id": 98, "app": "Mermaid CLI", "round": 1, "field": "api_type", "check": "critic", "status": "contradicted", "detail": "Quote states a Node.JS API exists, contradicting 'none'."}
+{"id": 35, "app": "Mailchimp", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 35, "app": "Mailchimp", "round": 1, "field": "auth_methods", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 35, "app": "Mailchimp", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 35, "app": "Mailchimp", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 35, "app": "Mailchimp", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 35, "app": "Mailchimp", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 35, "app": "Mailchimp", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 35, "app": "Mailchimp", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "value is unknown"}
+{"id": 35, "app": "Mailchimp", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote mentions both API key and OAuth 2 authentication."}
+{"id": 35, "app": "Mailchimp", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote only notes generating an API key, not free self‑serve availability."}
+{"id": 35, "app": "Mailchimp", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote describes endpoint URLs but does not specify REST as the API type."}
+{"id": 99, "app": "YouTube Transcript", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 99, "app": "YouTube Transcript", "round": 1, "field": "auth_methods", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 99, "app": "YouTube Transcript", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 99, "app": "YouTube Transcript", "round": 1, "field": "api_type", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 99, "app": "YouTube Transcript", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 99, "app": "YouTube Transcript", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 99, "app": "YouTube Transcript", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 99, "app": "YouTube Transcript", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "value is unknown"}
+{"id": 99, "app": "YouTube Transcript", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote lists OAuth and API Key as methods."}
+{"id": 99, "app": "YouTube Transcript", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote shows self‑service login but does not state it is free."}
+{"id": 99, "app": "YouTube Transcript", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Code examples in cURL imply a REST API."}
+{"id": 36, "app": "Klaviyo", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 36, "app": "Klaviyo", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 36, "app": "Klaviyo", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 36, "app": "Klaviyo", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 36, "app": "Klaviyo", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 36, "app": "Klaviyo", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 36, "app": "Klaviyo", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 36, "app": "Klaviyo", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 36, "app": "Klaviyo", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 36, "app": "Klaviyo", "round": 1, "field": "auth_methods", "check": "critic", "status": "not_enough_info", "detail": "Quote only mentions private key, no OAuth2 evidence"}
+{"id": 36, "app": "Klaviyo", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote \"Get started\" gives no free self‑serve details"}
+{"id": 36, "app": "Klaviyo", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote discusses authentication, not API style"}
+{"id": 36, "app": "Klaviyo", "round": 1, "field": "mcp", "check": "critic", "status": "not_enough_info", "detail": "Quote lacks any mention of official MCP server"}
+{"id": 100, "app": "Grain", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 100, "app": "Grain", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 100, "app": "Grain", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 100, "app": "Grain", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 100, "app": "Grain", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 100, "app": "Grain", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 100, "app": "Grain", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 100, "app": "Grain", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "value is unknown"}
+{"id": 100, "app": "Grain", "round": 1, "field": "auth_methods", "check": "critic", "status": "contradicted", "detail": "Quote only shows Bearer token, no API key support"}
+{"id": 100, "app": "Grain", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Free plan includes personal access token"}
+{"id": 100, "app": "Grain", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote doesn't specify REST vs other types"}
+{"id": 37, "app": "systeme.io", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 37, "app": "systeme.io", "round": 1, "field": "auth_methods", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 37, "app": "systeme.io", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 37, "app": "systeme.io", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 37, "app": "systeme.io", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 37, "app": "systeme.io", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 37, "app": "systeme.io", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 37, "app": "systeme.io", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 37, "app": "systeme.io", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 37, "app": "systeme.io", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote states you can create a public API key."}
+{"id": 37, "app": "systeme.io", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote mentions free account but not API access details."}
+{"id": 37, "app": "systeme.io", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote does not specify REST or other protocol."}
+{"id": 37, "app": "systeme.io", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote calls it official MCP documentation."}
+{"id": 38, "app": "Pinterest", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 38, "app": "Pinterest", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 38, "app": "Pinterest", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 38, "app": "Pinterest", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 38, "app": "Pinterest", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 38, "app": "Pinterest", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 38, "app": "Pinterest", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 38, "app": "Pinterest", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "value is unknown"}
+{"id": 38, "app": "Pinterest", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote mentions Authorization Code grant, an OAuth2 flow."}
+{"id": 38, "app": "Pinterest", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Quote describes obtaining a token after trial access approval."}
+{"id": 38, "app": "Pinterest", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote references OpenAPI specs for Pinterest's REST API."}
+{"id": 33, "app": "LinkedIn Ads", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 33, "app": "LinkedIn Ads", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 33, "app": "LinkedIn Ads", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 33, "app": "LinkedIn Ads", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 33, "app": "LinkedIn Ads", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 33, "app": "LinkedIn Ads", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 33, "app": "LinkedIn Ads", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 33, "app": "LinkedIn Ads", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "value is unknown"}
+{"id": 33, "app": "LinkedIn Ads", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote describes Authorization Code Flow, an OAuth2 method"}
+{"id": 33, "app": "LinkedIn Ads", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Quote requires submitting application, implying admin approval"}
+{"id": 33, "app": "LinkedIn Ads", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Curl example shows REST endpoint"}
+{"id": 39, "app": "Threads (Meta)", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 39, "app": "Threads (Meta)", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 39, "app": "Threads (Meta)", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 39, "app": "Threads (Meta)", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 39, "app": "Threads (Meta)", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 39, "app": "Threads (Meta)", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 39, "app": "Threads (Meta)", "round": 1, "field": "access", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 39, "app": "Threads (Meta)", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 39, "app": "Threads (Meta)", "round": 1, "field": "mcp", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 39, "app": "Threads (Meta)", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote explicitly mentions OAuth 2.0 protocol."}
+{"id": 39, "app": "Threads (Meta)", "round": 1, "field": "access", "check": "critic", "status": "supported", "detail": "Quote requires App Review approval for permissions."}
+{"id": 39, "app": "Threads (Meta)", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote does not specify REST or other type."}
+{"id": 39, "app": "Threads (Meta)", "round": 1, "field": "mcp", "check": "critic", "status": "not_enough_info", "detail": "Quote gives no info on official vs community MCP."}
+{"id": 40, "app": "SendGrid", "round": 1, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 40, "app": "SendGrid", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 40, "app": "SendGrid", "round": 1, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 40, "app": "SendGrid", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 40, "app": "SendGrid", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 40, "app": "SendGrid", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "claimed self-serve, but pages mention partner program / contact sales / request access"}
+{"id": 40, "app": "SendGrid", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 40, "app": "SendGrid", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "value is unknown"}
+{"id": 40, "app": "SendGrid", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote states API key as credential."}
+{"id": 40, "app": "SendGrid", "round": 1, "field": "access", "check": "critic", "status": "not_enough_info", "detail": "Quote lacks info on free self‑serve access."}
+{"id": 40, "app": "SendGrid", "round": 1, "field": "api_type", "check": "critic", "status": "supported", "detail": "Quote explicitly calls it a REST surface."}
+{"id": 41, "app": "Shopify", "round": 1, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 41, "app": "Shopify", "round": 1, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 41, "app": "Shopify", "round": 1, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 41, "app": "Shopify", "round": 1, "field": "auth_methods", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 41, "app": "Shopify", "round": 1, "field": "access", "check": "consistency", "status": "fail", "detail": "value is unknown"}
+{"id": 41, "app": "Shopify", "round": 1, "field": "api_type", "check": "consistency", "status": "pass", "detail": ""}
+{"id": 41, "app": "Shopify", "round": 1, "field": "mcp", "check": "consistency", "status": "fail", "detail": "official MCP claimed without an MCP URL on the vendor's own site"}
+{"id": 41, "app": "Shopify", "round": 1, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote explicitly mentions OAuth token exchange."}
+{"id": 41, "app": "Shopify", "round": 1, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote only references GraphQL, no mention of REST."}
+{"id": 41, "app": "Shopify", "round": 1, "field": "mcp", "check": "critic", "status": "supported", "detail": "Quote indicates a Shopify-provided MCP server."}
+{"id": 5, "app": "Twenty", "round": 1, "field": "*", "check": "browser", "status": "rescued", "detail": "1 thin page(s) re-rendered"}
+{"id": 21, "app": "Slack", "round": 1, "field": "*", "check": "browser", "status": "rescued", "detail": "2 thin page(s) re-rendered"}
+{"id": 24, "app": "Lark (Larksuite)", "round": 1, "field": "*", "check": "browser", "status": "rescued", "detail": "1 thin page(s) re-rendered"}
+{"id": 74, "app": "Jira", "round": 1, "field": "*", "check": "browser", "status": "rescued", "detail": "1 thin page(s) re-rendered"}
+{"id": 5, "app": "Twenty", "round": 2, "field": "auth_methods", "check": "rerun", "status": "confirmed", "detail": ""}
+{"id": 5, "app": "Twenty", "round": 2, "field": "access", "check": "rerun", "status": "changed", "detail": "self_serve_free -> unknown"}
+{"id": 5, "app": "Twenty", "round": 2, "field": "api_type", "check": "rerun", "status": "confirmed", "detail": ""}
+{"id": 5, "app": "Twenty", "round": 2, "field": "mcp", "check": "rerun", "status": "confirmed", "detail": ""}
+{"id": 5, "app": "Twenty", "round": 2, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 5, "app": "Twenty", "round": 2, "field": "auth_methods", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 5, "app": "Twenty", "round": 2, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 5, "app": "Twenty", "round": 2, "field": "mcp", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 21, "app": "Slack", "round": 2, "field": "auth_methods", "check": "rerun", "status": "changed", "detail": "['oauth2', 'api_key'] -> ['oauth2']"}
+{"id": 21, "app": "Slack", "round": 2, "field": "access", "check": "rerun", "status": "confirmed", "detail": ""}
+{"id": 21, "app": "Slack", "round": 2, "field": "api_type", "check": "rerun", "status": "confirmed", "detail": ""}
+{"id": 21, "app": "Slack", "round": 2, "field": "mcp", "check": "rerun", "status": "confirmed", "detail": ""}
+{"id": 21, "app": "Slack", "round": 2, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 21, "app": "Slack", "round": 2, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 21, "app": "Slack", "round": 2, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 21, "app": "Slack", "round": 2, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 21, "app": "Slack", "round": 2, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 21, "app": "Slack", "round": 2, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote explicitly mentions OAuth 2.0 implementation"}
+{"id": 24, "app": "Lark (Larksuite)", "round": 2, "field": "auth_methods", "check": "rerun", "status": "confirmed", "detail": ""}
+{"id": 24, "app": "Lark (Larksuite)", "round": 2, "field": "access", "check": "rerun", "status": "confirmed", "detail": ""}
+{"id": 24, "app": "Lark (Larksuite)", "round": 2, "field": "api_type", "check": "rerun", "status": "confirmed", "detail": ""}
+{"id": 24, "app": "Lark (Larksuite)", "round": 2, "field": "mcp", "check": "rerun", "status": "confirmed", "detail": ""}
+{"id": 27, "app": "Telegram", "round": 2, "field": "auth_methods", "check": "rerun", "status": "changed", "detail": "['api_key', 'bearer_token'] -> ['oauth2']"}
+{"id": 27, "app": "Telegram", "round": 2, "field": "access", "check": "rerun", "status": "confirmed", "detail": ""}
+{"id": 27, "app": "Telegram", "round": 2, "field": "api_type", "check": "rerun", "status": "changed", "detail": "['rest', 'rpc'] -> ['rest']"}
+{"id": 27, "app": "Telegram", "round": 2, "field": "mcp", "check": "rerun", "status": "changed", "detail": "community -> none_found"}
+{"id": 27, "app": "Telegram", "round": 2, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 27, "app": "Telegram", "round": 2, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 27, "app": "Telegram", "round": 2, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 27, "app": "Telegram", "round": 2, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 27, "app": "Telegram", "round": 2, "field": "auth_methods", "check": "critic", "status": "supported", "detail": "Quote mentions OIDC, which relies on OAuth2."}
+{"id": 27, "app": "Telegram", "round": 2, "field": "api_type", "check": "critic", "status": "not_enough_info", "detail": "Quote describes message fields, not API type."}
+{"id": 35, "app": "Mailchimp", "round": 2, "field": "auth_methods", "check": "rerun", "status": "confirmed", "detail": ""}
+{"id": 35, "app": "Mailchimp", "round": 2, "field": "access", "check": "rerun", "status": "confirmed", "detail": ""}
+{"id": 35, "app": "Mailchimp", "round": 2, "field": "api_type", "check": "rerun", "status": "confirmed", "detail": ""}
+{"id": 35, "app": "Mailchimp", "round": 2, "field": "mcp", "check": "rerun", "status": "changed", "detail": "none_found -> none_found"}
+{"id": 35, "app": "Mailchimp", "round": 2, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 35, "app": "Mailchimp", "round": 2, "field": "auth_methods", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 35, "app": "Mailchimp", "round": 2, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 35, "app": "Mailchimp", "round": 2, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 36, "app": "Klaviyo", "round": 2, "field": "auth_methods", "check": "rerun", "status": "changed", "detail": "['api_key', 'oauth2'] -> ['oauth2', 'api_key']"}
+{"id": 36, "app": "Klaviyo", "round": 2, "field": "access", "check": "rerun", "status": "changed", "detail": "self_serve_free -> admin_approval"}
+{"id": 36, "app": "Klaviyo", "round": 2, "field": "api_type", "check": "rerun", "status": "confirmed", "detail": ""}
+{"id": 36, "app": "Klaviyo", "round": 2, "field": "mcp", "check": "rerun", "status": "confirmed", "detail": ""}
+{"id": 36, "app": "Klaviyo", "round": 2, "field": "one_liner", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 36, "app": "Klaviyo", "round": 2, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 36, "app": "Klaviyo", "round": 2, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 36, "app": "Klaviyo", "round": 2, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 36, "app": "Klaviyo", "round": 2, "field": "mcp", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 36, "app": "Klaviyo", "round": 2, "field": "auth_methods", "check": "critic", "status": "not_enough_info", "detail": "Quote only mentions OAuth, no info on API key"}
+{"id": 36, "app": "Klaviyo", "round": 2, "field": "access", "check": "critic", "status": "supported", "detail": "Quote requires passing app review, implying admin approval"}
+{"id": 70, "app": "Sentry", "round": 2, "field": "auth_methods", "check": "rerun", "status": "confirmed", "detail": ""}
+{"id": 70, "app": "Sentry", "round": 2, "field": "access", "check": "rerun", "status": "confirmed", "detail": ""}
+{"id": 70, "app": "Sentry", "round": 2, "field": "api_type", "check": "rerun", "status": "confirmed", "detail": ""}
+{"id": 70, "app": "Sentry", "round": 2, "field": "mcp", "check": "rerun", "status": "confirmed", "detail": ""}
+{"id": 74, "app": "Jira", "round": 2, "field": "auth_methods", "check": "rerun", "status": "confirmed", "detail": ""}
+{"id": 74, "app": "Jira", "round": 2, "field": "access", "check": "rerun", "status": "confirmed", "detail": ""}
+{"id": 74, "app": "Jira", "round": 2, "field": "api_type", "check": "rerun", "status": "confirmed", "detail": ""}
+{"id": 74, "app": "Jira", "round": 2, "field": "mcp", "check": "rerun", "status": "changed", "detail": "official -> none_found"}
+{"id": 74, "app": "Jira", "round": 2, "field": "one_liner", "check": "evidence", "status": "fail", "detail": "quote not found on cited page"}
+{"id": 74, "app": "Jira", "round": 2, "field": "auth_methods", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 74, "app": "Jira", "round": 2, "field": "access", "check": "evidence", "status": "pass", "detail": ""}
+{"id": 74, "app": "Jira", "round": 2, "field": "api_type", "check": "evidence", "status": "pass", "detail": ""}

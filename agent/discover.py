@@ -85,7 +85,10 @@ def _repo_owner(url: str) -> str:
 
 
 def is_official(url: str, app: dict, domains: set[str]) -> bool:
-    host = (urlparse(url).hostname or "").lower().removeprefix("www.")
+    try:
+        host = (urlparse(url).hostname or "").lower().removeprefix("www.")
+    except ValueError:  # malformed URL (e.g. an LLM-written mcp_url): not official
+        return False
     # github.com hosts everyone's repos, so the domain alone proves nothing:
     # a repo is official only if its owner is the hint's owner (Sherlock ->
     # sherlock-project) or the app itself (GitHub -> github).
