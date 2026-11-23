@@ -1,0 +1,26 @@
+# Secrets: never commit
+.env
+.env.example
+# Local-only planning notes
+PLAN.md
+
+# Re-creatable / large / private
+cache/
+logs/
+*.tmp
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Scratch output of the critic warm-up run
+results/_prewarm_log.jsonl

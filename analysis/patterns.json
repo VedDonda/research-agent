@@ -1,0 +1,86 @@
+{
+ "n": 20,
+ "headlines": [
+  "15 of 20 apps could be agent toolkits today with self-serve credentials; 5 need friction (paid plan or app review) and 0 are blocked.",
+  "oauth2 is the most common auth method (14 of 20 apps); 8 apps offer both OAuth2 and API keys.",
+  "The most common blocker is app review / approval (4 apps). 0 apps need outreach (partner program or contact sales).",
+  "Most self-serve: Support and Helpdesk (100% self-serve). Most gated: CRM and Sales (70% self-serve).",
+  "1 easy wins: ready today and no Composio toolkit yet.",
+  "15 apps have an official MCP server, 3 only community ones, 2 none found."
+ ],
+ "auth_counts": {
+  "oauth2": 14,
+  "api_key": 11,
+  "bearer_token": 7,
+  "basic": 4,
+  "jwt": 3,
+  "none": 1
+ },
+ "access_counts": {
+  "self_serve_free": 16,
+  "admin_approval": 4
+ },
+ "access_by_category": {
+  "CRM and Sales": {
+   "admin_approval": 3,
+   "self_serve_free": 7
+  },
+  "Data, SEO and Scraping": {
+   "admin_approval": 1,
+   "self_serve_free": 4
+  },
+  "Developer, Infra and Data platforms": {
+   "admin_approval": 0,
+   "self_serve_free": 1
+  },
+  "Support and Helpdesk": {
+   "admin_approval": 0,
+   "self_serve_free": 4
+  }
+ },
+ "verdict_by_category": {
+  "CRM and Sales": {
+   "ready": 7,
+   "ready_with_friction": 3
+  },
+  "Data, SEO and Scraping": {
+   "ready": 3,
+   "ready_with_friction": 2
+  },
+  "Developer, Infra and Data platforms": {
+   "ready": 1,
+   "ready_with_friction": 0
+  },
+  "Support and Helpdesk": {
+   "ready": 4,
+   "ready_with_friction": 0
+  }
+ },
+ "self_serve_pct_by_category": {
+  "CRM and Sales": 70.0,
+  "Data, SEO and Scraping": 80.0,
+  "Developer, Infra and Data platforms": 100.0,
+  "Support and Helpdesk": 100.0
+ },
+ "verdict_counts": {
+  "ready": 15,
+  "ready_with_friction": 5
+ },
+ "blockers": {
+  "app review / approval": 4
+ },
+ "mcp_counts": {
+  "official": 15,
+  "community": 3,
+  "none_found": 2
+ },
+ "easy_wins": [
+  {
+   "id": 7,
+   "app": "Zoho CRM",
+   "category": "CRM and Sales"
+  }
+ ],
+ "needs_outreach": [],
+ "overrides": []
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>100 apps, researched by an agent: auth, access and buildability</title>
+<meta name="description" content="Agent research of 100 apps for Composio toolkits: auth methods, self-serve vs gated access, API surface, MCP, buildability verdict, with evidence and measured accuracy. Machine-readable data: results.json">
+<style>
+:root{--ink:#1f2937;--mute:#6b7280;--line:#e5e7eb;--bg:#fafafa;--blue:#2563eb;--g:#15803d;--gbg:#dcfce7;--a:#b45309;--abg:#fef3c7;--r:#b91c1c;--rbg:#fee2e2}
+*{box-sizing:border-box}body{margin:0;font:15px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--ink);background:var(--bg)}
+main{max-width:1100px;margin:0 auto;padding:24px 18px 60px}
+h1{font-size:28px;margin:0 0 6px}h2{font-size:20px;margin:36px 0 10px;padding-top:10px;border-top:1px solid var(--line)}
+.sub{color:var(--mute);margin:0 0 12px}.links a{margin-right:14px;color:var(--blue);text-decoration:none;font-weight:600}
+.head{font-size:17px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px 18px 14px 34px}.head li{margin:6px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}.card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.card h3{margin:0 0 10px;font-size:15px}.bar{display:flex;align-items:center;gap:8px;margin:4px 0;font-size:13px}
+.lbl{width:130px;flex:none;color:var(--mute)}.track{flex:1;background:#f3f4f6;border-radius:4px;height:12px}.fill{display:block;height:12px;border-radius:4px;background:var(--blue)}.num{width:28px;text-align:right}
+table{border-collapse:collapse;width:100%;background:#fff;font-size:13px}th,td{border:1px solid var(--line);padding:5px 7px;text-align:left;vertical-align:top}th{background:#f9fafb}
+.heat td{text-align:center;min-width:44px}.heat th{font-size:12px}.cat{white-space:nowrap}
+.chip{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;font-weight:600;white-space:nowrap}
+.ready{background:var(--gbg);color:var(--g)}.ready_with_friction{background:var(--abg);color:var(--a)}.blocked{background:var(--rbg);color:var(--r)}.unknown{background:#eee;color:#555}
+.controls{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}.controls input,.controls select{padding:6px 8px;border:1px solid var(--line);border-radius:6px;font:inherit}
+#t tr.row{cursor:pointer}#t tr.row:hover{background:#f5f8ff}#t tr.detail td{background:#fbfbfb;font-size:12.5px}
+.q{color:#374151;font-style:italic}.small{font-size:12.5px;color:var(--mute)}
+.flow{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:8px 0 14px}.step{background:#fff;border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:13px}.step b{display:block}.arrow{color:var(--mute)}
+.acc td:not(:first-child){text-align:center}.hm small{color:var(--r)}
+@media(max-width:700px){.lbl{width:95px}.hide-sm{display:none}}
+</style>
+</head>
+<body><main>
+<h1>100 apps, researched by an agent</h1>
+<p class="sub">How {{N}} apps authenticate, whether a developer can get in alone, what their APIs look like, and whether Composio could build an agent toolkit today. Every answer cites the docs page and quote it came from. A sample is checked against hand labels.</p>
+<p class="links"><a href="{{REPO}}">Source repo</a><a href="results.json">results.json</a><a href="results.csv">results.csv</a><a href="{{REPO}}/actions">Run the agent ▸</a></p>
+
+<h2>Headline patterns</h2>
+<ul class="head">{{HEADLINES}}</ul>
+
+<div class="grid" style="margin-top:16px">
+ <div class="card"><h3>Auth methods (apps can have several)</h3>{{AUTH_BARS}}</div>
+ <div class="card"><h3>Buildability verdict</h3>{{VERDICT_BARS}}<h3 style="margin-top:14px">What gates the rest</h3>{{BLOCKER_BARS}}</div>
+</div>
+<h3 style="font-size:15px;margin:18px 0 6px">Access by category (count of apps)</h3>
+<div style="overflow-x:auto">{{HEATMAP}}</div>
+
+<div class="grid" style="margin-top:16px">
+ <div class="card"><h3>✅ Easy wins: ready today, no Composio toolkit yet</h3><ul>{{EASY}}</ul></div>
+ <div class="card"><h3>📞 Needs outreach: partner program or contact sales</h3><ul>{{OUTREACH}}</ul></div>
+</div>
+
+<h2>All findings</h2>
+<div class="controls">
+ <input id="q" placeholder="Search apps…" oninput="draw()">
+ <select id="fc" onchange="draw()"><option value="">All categories</option></select>
+ <select id="fv" onchange="draw()"><option value="">All verdicts</option><option>ready</option><option>ready_with_friction</option><option>blocked</option></select>
+ <select id="fa" onchange="draw()"><option value="">All access</option></select>
+</div>
+<p class="small">Click a row for its quotes, sources and confidence. Click a header to sort.</p>
+<div style="overflow-x:auto"><table id="t"><thead><tr>
+ <th data-k="app">App</th><th data-k="category" class="hide-sm">Category</th><th data-k="auth">Auth</th><th data-k="access">Access</th>
+ <th data-k="api" class="hide-sm">API</th><th data-k="mcp">MCP</th><th data-k="toolkit" class="hide-sm">Composio toolkit?</th><th data-k="verdict">Verdict</th>
+</tr></thead><tbody></tbody></table></div>
+
+<h2>The agent</h2>
+<div class="flow">
+ <div class="step"><b>1 Discover</b>hint + hint links + 4 searches<br><span class="small">Composio → Tavily</span></div><span class="arrow">→</span>
+ <div class="step"><b>2 Fetch</b>httpx + trafilatura<br><span class="small">thin → Composio extract</span></div><span class="arrow">→</span>
+ <div class="step"><b>3 Pre-scan</b>19 regex signals<br><span class="small">no LLM</span></div><span class="arrow">→</span>
+ <div class="step"><b>4 Extract</b>1 call per app, quote per field<br><span class="small">Groq qwen3.8 / gpt-oss-20b</span></div><span class="arrow">→</span>
+ <div class="step"><b>5 Verify</b>evidence · consistency · browser · critic<br><span class="small">code, Chromium, gpt-oss-120b</span></div><span class="arrow">→</span>
+ <div class="step"><b>6 Re-research</b>flagged fields only<br><span class="small">targeted search + re-extract</span></div><span class="arrow">→</span>
+ <div class="step"><b>7 Human</b>what loops can't settle</div>
+</div>
+<ul>
+ <li><b>Code decides what code can decide.</b> URL ranking, keyword signals, the verdict (<i>ready</i> = self-serve + REST/GraphQL + known auth; <i>friction</i> = paid plan / app review / SDK-only; <i>blocked</i> = partner, sales or no API) and every number on this page.</li>
+ <li><b>The LLM only reads fetched pages</b> and must cite a source number and a verbatim quote for each field. Code maps the number back to the URL and checks the quote is really on the page.</li>
+ <li><b>Pass 1 is frozen.</b> The loops write Pass 2, so their effect is measurable.</li>
+ <li><b>Cost: $0.</b> Free tiers of Composio, Tavily, Groq and Gemini, and everything is cached.</li>
+</ul>
+<h3 style="font-size:15px">Where a human was needed</h3>
+<ul>
+ <li>Hand labels for the 20-app accuracy sample, made before any agent output existed.</li>
+ <li>Human overrides applied to the final data:<ul>{{OVERRIDES}}</ul></li>
+ <li>{{N_HUMAN}} rows are still flagged <code>needs_human</code> after the loops (first 40 shown):<ul class="small">{{NEEDS_HUMAN}}</ul></li>
+</ul>
+
+<h2>Verification: is it right?</h2>
+<p>20 apps (2 per category, seed 42) were hand-labelled from official docs. 10 are a <b>holdout</b> that was never looked at while tuning the prompt. The scores are exact-match % for each field against those hand labels.</p>
+{{ACCURACY}}
+<h3 style="font-size:15px;margin-top:16px">What each verification loop found</h3>
+{{LOOPS}}
+<h3 style="font-size:15px;margin-top:16px">Every sampled app: hits and misses (latest pass)</h3>
+<div style="overflow-x:auto">{{HITMISS}}</div>
+
+<h2>What defeated us / limitations</h2>
+<ul>
+ <li><b>A small docs budget:</b> about 3K tokens of docs per app, which is what Groq's free 8K-tokens-per-minute limit allows. A fact in a paragraph that wasn't picked can be missed; the pre-scan reads full pages to catch some of these.</li>
+ <li><b>Free quotas capped the re-research.</b> It ran on the most-flagged apps first until quota ran out. The rest are marked <code>needs_human</code>, not guessed.</li>
+ <li><b>Same-name products</b> (e.g. "Sherlock") can pull in the wrong vendor's pages when the hint is only a GitHub repo.</li>
+ <li><b>Login-walled or JS-only docs</b> can defeat httpx, Tavily extract and headless Chromium alike.</li>
+ <li><b>Provider churn while building:</b> Mistral's free API and GitHub Models became unavailable, and so did Composio's free search toolkit. Composio friction we hit:<ul class="small">{{FRICTION}}</ul></li>
+</ul>
+
+<h2>For agents</h2>
+<p>Full dataset: <a href="results.json">results.json</a>, an object with <code>apps</code>, one record per app. Each researched field is <code>{value, evidence_url, snippet, confidence}</code>, plus <code>verdict</code>, <code>needs_human</code>, <code>changed_fields</code> and <code>sources</code>. The same data is embedded below as <code>&lt;script type="application/json" id="data"&gt;</code>.</p>
+<script type="application/json" id="data">{{DATA}}</script>
+<script>
+const D=JSON.parse(document.getElementById('data').textContent);
+const val=(r,k)=>(r[k]||{}).value; const j=x=>Array.isArray(x)?x.join(', '):(x??'');
+const rows=D.map(r=>({r,app:r.app,category:r.category,auth:j(val(r,'auth_methods')),access:val(r,'access')||'unknown',api:j(val(r,'api_type')),mcp:val(r,'mcp')||'',toolkit:r.composio_toolkit_exists===true?'yes':r.composio_toolkit_exists===false?'no':'?',verdict:r.verdict||'unknown'}));
+const uniq=k=>[...new Set(rows.map(x=>x[k]))].sort();
+uniq('category').forEach(c=>fc.add(new Option(c,c))); uniq('access').forEach(c=>fa.add(new Option(c,c)));
+let sortK='app',dir=1;
+document.querySelectorAll('#t th').forEach(th=>th.onclick=()=>{dir=sortK===th.dataset.k?-dir:1;sortK=th.dataset.k;draw()});
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function detail(r){const f=['one_liner','auth_methods','access','api_type','api_breadth','mcp','webhooks','sandbox_or_test_mode','rate_limit_note'];
+ return f.filter(k=>r[k]).map(k=>{const e=r[k];return `<div><b>${k.replace(/_/g,' ')}</b>: ${esc(j(e.value))} <span class="small">(conf ${e.confidence})</span>${e.snippet?` <span class="q">“${esc(e.snippet)}”</span>`:''}${e.evidence_url?` <a href="${esc(e.evidence_url)}" target="_blank" rel="noopener">source</a>`:''}</div>`}).join('')
+ +`<div><b>verdict reason</b>: ${esc(r.verdict_reason)} ${r.main_blocker?'· <b>blocker</b>: '+esc(r.main_blocker):''}</div>`
+ +`<div class="small">model: ${esc(r.extractor_model)} · pass ${r.pass}${(r.changed_fields||[]).length?' · changed in pass 2: '+esc(r.changed_fields.join(', ')):''}${r.needs_human?' · <b>needs human</b>: '+esc(r.human_note):''}</div>`;}
+function draw(){const q=document.getElementById('q').value.toLowerCase();
+ const list=rows.filter(x=>(!q||x.app.toLowerCase().includes(q))&&(!fc.value||x.category===fc.value)&&(!fv.value||x.verdict===fv.value)&&(!fa.value||x.access===fa.value))
+  .sort((a,b)=>String(a[sortK]).localeCompare(String(b[sortK]))*dir);
+ document.querySelector('#t tbody').innerHTML=list.map((x,i)=>`<tr class="row" onclick="tog(${i})"><td><b>${esc(x.app)}</b></td><td class="hide-sm">${esc(x.category)}</td><td>${esc(x.auth)}</td><td>${esc(x.access.replace(/_/g,' '))}</td><td class="hide-sm">${esc(x.api)}</td><td>${esc(x.mcp.replace(/_/g,' '))}</td><td class="hide-sm">${x.toolkit}</td><td><span class="chip ${x.verdict}">${x.verdict.replace(/_/g,' ')}</span>${x.r.needs_human?' ⚑':''}</td></tr><tr class="detail" id="d${i}" hidden><td colspan="8">${detail(x.r)}</td></tr>`).join('');}
+function tog(i){const d=document.getElementById('d'+i);d.hidden=!d.hidden}
+draw();
+</script>
+</main></body></html>

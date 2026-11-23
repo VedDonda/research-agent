@@ -1,0 +1,40 @@
+# The runnable trigger: research any one app from the browser.
+# Actions tab -> "Research one app" -> Run workflow -> type an app name from data/apps.csv.
+# Needs repo secrets: COMPOSIO_API_KEY, TAVILY_API_KEY, GROQ_API_KEY (GEMINI_API_KEY optional).
+name: Research one app
+on:
+  workflow_dispatch:
+    inputs:
+      app:
+        description: "App name exactly as in data/apps.csv (e.g. Linear)"
+        required: true
+        default: "Linear"
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      COMPOSIO_API_KEY: ${{ secrets.COMPOSIO_API_KEY }}
+      TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Discover + fetch + pre-scan
+        run: python -m agent.run --app "${{ inputs.app }}" --prep
+      - name: Extract (prints the record as JSON)
+        run: python -m agent.run --app "${{ inputs.app }}" --extract | tee record.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: research-${{ github.run_id }}
+          path: |
+            record.json
+            cache/discover
+            cache/docs
+            cache/prescan

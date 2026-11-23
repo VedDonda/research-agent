@@ -1,0 +1,4 @@
+# Normalise line endings so Windows and Linux (GitHub Actions) see the same files.
+* text=auto eol=lf
+*.bat text eol=crlf
+*.ps1 text eol=crlf

@@ -1,0 +1,849 @@
+{
+  "1": {
+    "app": "Salesforce",
+    "exists": true,
+    "exact": [
+      "salesforce"
+    ],
+    "near": [
+      "salesforce_data_360",
+      "salesforce_service_cloud"
+    ]
+  },
+  "2": {
+    "app": "HubSpot",
+    "exists": true,
+    "exact": [
+      "hubspot"
+    ],
+    "near": []
+  },
+  "3": {
+    "app": "Pipedrive",
+    "exists": true,
+    "exact": [
+      "pipedrive"
+    ],
+    "near": []
+  },
+  "4": {
+    "app": "Attio",
+    "exists": true,
+    "exact": [
+      "attio"
+    ],
+    "near": []
+  },
+  "5": {
+    "app": "Twenty",
+    "exists": true,
+    "exact": [
+      "twenty"
+    ],
+    "near": []
+  },
+  "6": {
+    "app": "Podio",
+    "exists": true,
+    "exact": [
+      "podio"
+    ],
+    "near": []
+  },
+  "7": {
+    "app": "Zoho CRM",
+    "exists": false,
+    "exact": [],
+    "near": [
+      "zoho",
+      "zoho_books",
+      "zoho_inventory",
+      "zoho_bigin",
+      "zoho_desk",
+      "zoho_mail",
+      "zoho_invoice",
+      "zoho_analytics"
+    ]
+  },
+  "8": {
+    "app": "Close",
+    "exists": true,
+    "exact": [
+      "close",
+      "close_mcp"
+    ],
+    "near": []
+  },
+  "9": {
+    "app": "Copper",
+    "exists": true,
+    "exact": [
+      "copper"
+    ],
+    "near": []
+  },
+  "10": {
+    "app": "DealCloud",
+    "exists": false,
+    "exact": [],
+    "near": []
+  },
+  "11": {
+    "app": "Zendesk",
+    "exists": true,
+    "exact": [
+      "zendesk"
+    ],
+    "near": []
+  },
+  "12": {
+    "app": "Intercom",
+    "exists": true,
+    "exact": [
+      "intercom",
+      "intercom_mcp"
+    ],
+    "near": []
+  },
+  "13": {
+    "app": "Freshdesk",
+    "exists": true,
+    "exact": [
+      "freshdesk"
+    ],
+    "near": []
+  },
+  "14": {
+    "app": "Front",
+    "exists": true,
+    "exact": [
+      "front"
+    ],
+    "near": []
+  },
+  "15": {
+    "app": "Pylon",
+    "exists": true,
+    "exact": [
+      "pylon_mcp"
+    ],
+    "near": []
+  },
+  "16": {
+    "app": "LiveAgent",
+    "exists": false,
+    "exact": [],
+    "near": []
+  },
+  "17": {
+    "app": "Plain",
+    "exists": true,
+    "exact": [
+      "plain",
+      "plain_mcp"
+    ],
+    "near": []
+  },
+  "18": {
+    "app": "Help Scout",
+    "exists": true,
+    "exact": [
+      "help_scout"
+    ],
+    "near": [
+      "helpdesk",
+      "help_spot",
+      "helpwise"
+    ]
+  },
+  "19": {
+    "app": "Gorgias",
+    "exists": true,
+    "exact": [
+      "gorgias"
+    ],
+    "near": []
+  },
+  "20": {
+    "app": "Gladly",
+    "exists": false,
+    "exact": [],
+    "near": []
+  },
+  "21": {
+    "app": "Slack",
+    "exists": true,
+    "exact": [
+      "slack"
+    ],
+    "near": [
+      "slackbot"
+    ]
+  },
+  "22": {
+    "app": "Twilio",
+    "exists": true,
+    "exact": [
+      "twilio"
+    ],
+    "near": []
+  },
+  "23": {
+    "app": "Zoho Cliq",
+    "exists": true,
+    "exact": [
+      "zoho_cliq"
+    ],
+    "near": [
+      "zoho",
+      "zoho_books",
+      "zoho_inventory",
+      "zoho_bigin",
+      "zoho_desk",
+      "zoho_mail",
+      "zoho_invoice",
+      "zoho_analytics"
+    ]
+  },
+  "24": {
+    "app": "Lark (Larksuite)",
+    "exists": true,
+    "exact": [
+      "lark"
+    ],
+    "near": []
+  },
+  "25": {
+    "app": "Pumble",
+    "exists": true,
+    "exact": [
+      "pumble"
+    ],
+    "near": []
+  },
+  "26": {
+    "app": "Discord",
+    "exists": true,
+    "exact": [
+      "discord"
+    ],
+    "near": [
+      "discordbot"
+    ]
+  },
+  "27": {
+    "app": "Telegram",
+    "exists": true,
+    "exact": [
+      "telegram"
+    ],
+    "near": []
+  },
+  "28": {
+    "app": "WhatsApp Business",
+    "exists": false,
+    "exact": [],
+    "near": [
+      "whatsapp"
+    ]
+  },
+  "29": {
+    "app": "Aircall",
+    "exists": true,
+    "exact": [
+      "aircall"
+    ],
+    "near": []
+  },
+  "30": {
+    "app": "Vonage",
+    "exists": false,
+    "exact": [],
+    "near": []
+  },
+  "31": {
+    "app": "Google Ads",
+    "exists": true,
+    "exact": [
+      "googleads"
+    ],
+    "near": [
+      "googlecalendar",
+      "googlesheets",
+      "googledrive",
+      "googledocs",
+      "googletasks",
+      "google_maps",
+      "googlemeet",
+      "googlebigquery"
+    ]
+  },
+  "32": {
+    "app": "Meta Ads",
+    "exists": true,
+    "exact": [
+      "metaads"
+    ],
+    "near": [
+      "metatextai",
+      "metabase",
+      "metaphor"
+    ]
+  },
+  "33": {
+    "app": "LinkedIn Ads",
+    "exists": true,
+    "exact": [
+      "linkedin_ads"
+    ],
+    "near": [
+      "linkedin"
+    ]
+  },
+  "34": {
+    "app": "GoHighLevel",
+    "exists": false,
+    "exact": [],
+    "near": []
+  },
+  "35": {
+    "app": "Mailchimp",
+    "exists": true,
+    "exact": [
+      "mailchimp"
+    ],
+    "near": []
+  },
+  "36": {
+    "app": "Klaviyo",
+    "exists": true,
+    "exact": [
+      "klaviyo"
+    ],
+    "near": []
+  },
+  "37": {
+    "app": "systeme.io",
+    "exists": false,
+    "exact": [],
+    "near": []
+  },
+  "38": {
+    "app": "Pinterest",
+    "exists": true,
+    "exact": [
+      "pinterest"
+    ],
+    "near": [
+      "pinterest_ads"
+    ]
+  },
+  "39": {
+    "app": "Threads (Meta)",
+    "exists": true,
+    "exact": [
+      "threads"
+    ],
+    "near": []
+  },
+  "40": {
+    "app": "SendGrid",
+    "exists": true,
+    "exact": [
+      "sendgrid"
+    ],
+    "near": []
+  },
+  "41": {
+    "app": "Shopify",
+    "exists": true,
+    "exact": [
+      "shopify"
+    ],
+    "near": []
+  },
+  "42": {
+    "app": "WooCommerce",
+    "exists": false,
+    "exact": [],
+    "near": []
+  },
+  "43": {
+    "app": "BigCommerce",
+    "exists": true,
+    "exact": [
+      "bigcommerce"
+    ],
+    "near": []
+  },
+  "44": {
+    "app": "Salesforce Commerce Cloud",
+    "exists": false,
+    "exact": [],
+    "near": [
+      "salesforce",
+      "salesforce_data_360",
+      "salesforce_service_cloud"
+    ]
+  },
+  "45": {
+    "app": "Magento (Adobe Commerce)",
+    "exists": false,
+    "exact": [],
+    "near": []
+  },
+  "46": {
+    "app": "Squarespace",
+    "exists": false,
+    "exact": [],
+    "near": []
+  },
+  "47": {
+    "app": "Ecwid",
+    "exists": false,
+    "exact": [],
+    "near": []
+  },
+  "48": {
+    "app": "Gumroad",
+    "exists": true,
+    "exact": [
+      "gumroad"
+    ],
+    "near": []
+  },
+  "49": {
+    "app": "Amazon Selling Partner",
+    "exists": false,
+    "exact": [],
+    "near": [
+      "amazon"
+    ]
+  },
+  "50": {
+    "app": "fanbasis",
+    "exists": false,
+    "exact": [],
+    "near": []
+  },
+  "51": {
+    "app": "DataForSEO",
+    "exists": true,
+    "exact": [
+      "dataforseo"
+    ],
+    "near": []
+  },
+  "52": {
+    "app": "SE Ranking",
+    "exists": false,
+    "exact": [],
+    "near": []
+  },
+  "53": {
+    "app": "Ahrefs",
+    "exists": true,
+    "exact": [
+      "ahrefs",
+      "ahrefs_mcp"
+    ],
+    "near": []
+  },
+  "54": {
+    "app": "MrScraper",
+    "exists": true,
+    "exact": [
+      "mrscraper"
+    ],
+    "near": []
+  },
+  "55": {
+    "app": "Apify",
+    "exists": true,
+    "exact": [
+      "apify",
+      "apify_mcp"
+    ],
+    "near": []
+  },
+  "56": {
+    "app": "Firecrawl",
+    "exists": true,
+    "exact": [
+      "firecrawl"
+    ],
+    "near": []
+  },
+  "57": {
+    "app": "Bright Data",
+    "exists": true,
+    "exact": [
+      "brightdata"
+    ],
+    "near": []
+  },
+  "58": {
+    "app": "Sherlock",
+    "exists": false,
+    "exact": [],
+    "near": []
+  },
+  "59": {
+    "app": "Waterfall.io",
+    "exists": false,
+    "exact": [],
+    "near": []
+  },
+  "60": {
+    "app": "Clay",
+    "exists": true,
+    "exact": [
+      "clay",
+      "clay_mcp"
+    ],
+    "near": []
+  },
+  "61": {
+    "app": "GitHub",
+    "exists": true,
+    "exact": [
+      "github",
+      "github_mcp"
+    ],
+    "near": []
+  },
+  "62": {
+    "app": "Vercel",
+    "exists": true,
+    "exact": [
+      "vercel",
+      "vercel_mcp"
+    ],
+    "near": [
+      "vercel_ai_gateway"
+    ]
+  },
+  "63": {
+    "app": "Netlify",
+    "exists": true,
+    "exact": [
+      "netlify_mcp"
+    ],
+    "near": []
+  },
+  "64": {
+    "app": "Cloudflare",
+    "exists": true,
+    "exact": [
+      "cloudflare",
+      "cloudflare_mcp"
+    ],
+    "near": [
+      "cloudflare_api_key",
+      "cloudflare_browser_rendering"
+    ]
+  },
+  "65": {
+    "app": "Supabase",
+    "exists": true,
+    "exact": [
+      "supabase",
+      "supabase_mcp"
+    ],
+    "near": [
+      "supabase_read_mcp"
+    ]
+  },
+  "66": {
+    "app": "Neo4j",
+    "exists": true,
+    "exact": [
+      "neo4j"
+    ],
+    "near": []
+  },
+  "67": {
+    "app": "Snowflake",
+    "exists": true,
+    "exact": [
+      "snowflake"
+    ],
+    "near": [
+      "snowflake_basic"
+    ]
+  },
+  "68": {
+    "app": "MongoDB Atlas",
+    "exists": false,
+    "exact": [],
+    "near": [
+      "mongodb",
+      "mongodb_mcp"
+    ]
+  },
+  "69": {
+    "app": "Datadog",
+    "exists": true,
+    "exact": [
+      "datadog",
+      "datadog_mcp"
+    ],
+    "near": []
+  },
+  "70": {
+    "app": "Sentry",
+    "exists": true,
+    "exact": [
+      "sentry",
+      "sentry_mcp"
+    ],
+    "near": []
+  },
+  "71": {
+    "app": "Notion",
+    "exists": true,
+    "exact": [
+      "notion",
+      "notion_mcp"
+    ],
+    "near": []
+  },
+  "72": {
+    "app": "Airtable",
+    "exists": true,
+    "exact": [
+      "airtable"
+    ],
+    "near": []
+  },
+  "73": {
+    "app": "Linear",
+    "exists": true,
+    "exact": [
+      "linear",
+      "linear_mcp"
+    ],
+    "near": []
+  },
+  "74": {
+    "app": "Jira",
+    "exists": true,
+    "exact": [
+      "jira"
+    ],
+    "near": []
+  },
+  "75": {
+    "app": "Asana",
+    "exists": true,
+    "exact": [
+      "asana"
+    ],
+    "near": []
+  },
+  "76": {
+    "app": "Monday.com",
+    "exists": true,
+    "exact": [
+      "monday",
+      "monday_mcp"
+    ],
+    "near": []
+  },
+  "77": {
+    "app": "ClickUp",
+    "exists": true,
+    "exact": [
+      "clickup",
+      "clickup_mcp"
+    ],
+    "near": []
+  },
+  "78": {
+    "app": "Coda",
+    "exists": true,
+    "exact": [
+      "coda"
+    ],
+    "near": [
+      "codacy"
+    ]
+  },
+  "79": {
+    "app": "Smartsheet",
+    "exists": true,
+    "exact": [
+      "smartsheet"
+    ],
+    "near": []
+  },
+  "80": {
+    "app": "Harvest",
+    "exists": true,
+    "exact": [
+      "harvest"
+    ],
+    "near": [
+      "harvestapi"
+    ]
+  },
+  "81": {
+    "app": "Stripe",
+    "exists": true,
+    "exact": [
+      "stripe",
+      "stripe_mcp"
+    ],
+    "near": []
+  },
+  "82": {
+    "app": "Plaid",
+    "exists": true,
+    "exact": [
+      "plaid",
+      "plaid_mcp"
+    ],
+    "near": []
+  },
+  "83": {
+    "app": "Binance",
+    "exists": false,
+    "exact": [],
+    "near": []
+  },
+  "84": {
+    "app": "Paygent Connect",
+    "exists": false,
+    "exact": [],
+    "near": []
+  },
+  "85": {
+    "app": "iPayX",
+    "exists": false,
+    "exact": [],
+    "near": []
+  },
+  "86": {
+    "app": "QuickBooks",
+    "exists": true,
+    "exact": [
+      "quickbooks"
+    ],
+    "near": []
+  },
+  "87": {
+    "app": "Xero",
+    "exists": true,
+    "exact": [
+      "xero"
+    ],
+    "near": []
+  },
+  "88": {
+    "app": "Brex",
+    "exists": true,
+    "exact": [
+      "brex"
+    ],
+    "near": []
+  },
+  "89": {
+    "app": "Ramp",
+    "exists": true,
+    "exact": [
+      "ramp",
+      "ramp_mcp"
+    ],
+    "near": []
+  },
+  "90": {
+    "app": "PitchBook",
+    "exists": true,
+    "exact": [
+      "pitchbook"
+    ],
+    "near": []
+  },
+  "91": {
+    "app": "NotebookLM",
+    "exists": true,
+    "exact": [
+      "notebook_lm"
+    ],
+    "near": []
+  },
+  "92": {
+    "app": "Otter AI",
+    "exists": true,
+    "exact": [
+      "otter_ai_mcp"
+    ],
+    "near": []
+  },
+  "93": {
+    "app": "Fathom",
+    "exists": true,
+    "exact": [
+      "fathom"
+    ],
+    "near": []
+  },
+  "94": {
+    "app": "Consensus",
+    "exists": true,
+    "exact": [
+      "consensus",
+      "consensus_mcp"
+    ],
+    "near": []
+  },
+  "95": {
+    "app": "Reducto",
+    "exists": false,
+    "exact": [],
+    "near": []
+  },
+  "96": {
+    "app": "Devin",
+    "exists": true,
+    "exact": [
+      "devin_mcp"
+    ],
+    "near": []
+  },
+  "97": {
+    "app": "higgsfield",
+    "exists": true,
+    "exact": [
+      "higgsfield",
+      "higgsfield_mcp"
+    ],
+    "near": []
+  },
+  "98": {
+    "app": "Mermaid CLI",
+    "exists": false,
+    "exact": [],
+    "near": [
+      "mermaid_chart_mcp"
+    ]
+  },
+  "99": {
+    "app": "YouTube Transcript",
+    "exists": true,
+    "exact": [
+      "youtube_transcript"
+    ],
+    "near": [
+      "youtube"
+    ]
+  },
+  "100": {
+    "app": "Grain",
+    "exists": true,
+    "exact": [
+      "grain"
+    ],
+    "near": []
+  }
+}

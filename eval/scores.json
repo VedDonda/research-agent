@@ -1,0 +1,854 @@
+{
+ "n_apps": 20,
+ "holdout_ids": [
+  1,
+  15,
+  30,
+  35,
+  49,
+  52,
+  62,
+  73,
+  81,
+  99
+ ],
+ "passes": {
+  "pass1": {
+   "fields": {
+    "auth_methods": {
+     "exact": 5.0,
+     "partial": 12.5,
+     "holdout": 0.0,
+     "tuned": 10.0
+    },
+    "access": {
+     "exact": 10.0,
+     "partial": 10.0,
+     "holdout": 10.0,
+     "tuned": 10.0
+    },
+    "api_type": {
+     "exact": 10.0,
+     "partial": 11.7,
+     "holdout": 0.0,
+     "tuned": 20.0
+    },
+    "mcp": {
+     "exact": 15.0,
+     "partial": 15.0,
+     "holdout": 10.0,
+     "tuned": 20.0
+    },
+    "verdict": {
+     "exact": 15.0,
+     "partial": 15.0,
+     "holdout": 10.0,
+     "tuned": 20.0
+    }
+   },
+   "overall": 11.0,
+   "holdout": 6.0,
+   "tuned": 16.0
+  },
+  "final": {
+   "fields": {
+    "auth_methods": {
+     "exact": 5.0,
+     "partial": 12.5,
+     "holdout": 0.0,
+     "tuned": 10.0
+    },
+    "access": {
+     "exact": 10.0,
+     "partial": 10.0,
+     "holdout": 10.0,
+     "tuned": 10.0
+    },
+    "api_type": {
+     "exact": 10.0,
+     "partial": 11.7,
+     "holdout": 0.0,
+     "tuned": 20.0
+    },
+    "mcp": {
+     "exact": 15.0,
+     "partial": 15.0,
+     "holdout": 10.0,
+     "tuned": 20.0
+    },
+    "verdict": {
+     "exact": 15.0,
+     "partial": 15.0,
+     "holdout": 10.0,
+     "tuned": 20.0
+    }
+   },
+   "overall": 11.0,
+   "holdout": 6.0,
+   "tuned": 16.0
+  }
+ },
+ "apps": [
+  {
+   "id": 1,
+   "app": "Salesforce",
+   "holdout": true,
+   "notes": "MCP changed No->official: Salesforce Hosted MCP Servers GA Apr 2026 (Enterprise Edition+; beta in Developer Edition orgs). API reachable via free Developer Edition. MCP: https://developer.salesforce.com/docs/platform/hosted-mcp-servers/",
+   "fields": {
+    "auth_methods": {
+     "truth": "oauth2",
+     "agent": "bearer_token;oauth2",
+     "hit": false,
+     "pass1": "bearer_token;oauth2"
+    },
+    "access": {
+     "truth": "self_serve_free",
+     "agent": "self_serve_free",
+     "hit": true,
+     "pass1": "self_serve_free"
+    },
+    "api_type": {
+     "truth": "rest;soap;graphql",
+     "agent": "rest",
+     "hit": false,
+     "pass1": "rest"
+    },
+    "mcp": {
+     "truth": "official",
+     "agent": "official",
+     "hit": true,
+     "pass1": "official"
+    },
+    "verdict": {
+     "truth": "ready",
+     "agent": "ready",
+     "hit": true,
+     "pass1": "ready"
+    }
+   }
+  },
+  {
+   "id": 2,
+   "app": "HubSpot",
+   "holdout": false,
+   "notes": "MCP changed No->official: HubSpot remote MCP (mcp.hubspot.com). bearer_token = private app access token. MCP: https://developers.hubspot.com/changelog/mcp-server-beta",
+   "fields": {
+    "auth_methods": {
+     "truth": "oauth2;bearer_token",
+     "agent": "api_key;bearer_token;oauth2",
+     "hit": false,
+     "pass1": "api_key;bearer_token;oauth2"
+    },
+    "access": {
+     "truth": "self_serve_free",
+     "agent": "self_serve_free",
+     "hit": true,
+     "pass1": "self_serve_free"
+    },
+    "api_type": {
+     "truth": "rest",
+     "agent": "rest",
+     "hit": true,
+     "pass1": "rest"
+    },
+    "mcp": {
+     "truth": "official",
+     "agent": "official",
+     "hit": true,
+     "pass1": "official"
+    },
+    "verdict": {
+     "truth": "ready",
+     "agent": "ready",
+     "hit": true,
+     "pass1": "ready"
+    }
+   }
+  },
+  {
+   "id": 13,
+   "app": "Freshdesk",
+   "holdout": false,
+   "notes": "CONFIRM: MCP changed No->official: Freshworks MCP GA Sep 2026 (plan-based action limits). Access set to free_trial; confirm whether the free plan includes API. MCP: https://support.freshdesk.com/support/solutions/articles/50000012670",
+   "fields": {
+    "auth_methods": {
+     "truth": "api_key;basic",
+     "agent": "api_key;oauth2",
+     "hit": false,
+     "pass1": "api_key;oauth2"
+    },
+    "access": {
+     "truth": "free_trial",
+     "agent": "self_serve_free",
+     "hit": false,
+     "pass1": "self_serve_free"
+    },
+    "api_type": {
+     "truth": "rest",
+     "agent": "rest",
+     "hit": true,
+     "pass1": "rest"
+    },
+    "mcp": {
+     "truth": "official",
+     "agent": "official",
+     "hit": true,
+     "pass1": "official"
+    },
+    "verdict": {
+     "truth": "ready",
+     "agent": "ready",
+     "hit": true,
+     "pass1": "ready"
+    }
+   }
+  },
+  {
+   "id": 15,
+   "app": "Pylon",
+   "holdout": true,
+   "notes": "CONFIRM: Blocker: Paid plan only (no free plan, annual seat contract); API tokens admin-only. MCP changed No->official (Pylon MCP server on every plan). Sources disagree on self-serve checkout vs sales-led; if no self-serve signup, change access to contact_sales and verdict to blocked. MCP: https://www.usepylon.com/pylon-facts",
+   "fields": {
+    "auth_methods": {
+     "truth": "bearer_token",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "access": {
+     "truth": "paid_plan",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "api_type": {
+     "truth": "rest",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "mcp": {
+     "truth": "official",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "verdict": {
+     "truth": "ready_with_friction",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    }
+   }
+  },
+  {
+   "id": 23,
+   "app": "Zoho Cliq",
+   "holdout": false,
+   "notes": "MCP changed No->official: Zoho Cliq MCP via Zoho MCP console. MCP: https://www.zoho.com/cliq/help/platform/zoho-cliq-mcp.html",
+   "fields": {
+    "auth_methods": {
+     "truth": "oauth2",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "access": {
+     "truth": "self_serve_free",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "api_type": {
+     "truth": "rest",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "mcp": {
+     "truth": "official",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "verdict": {
+     "truth": "ready",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    }
+   }
+  },
+  {
+   "id": 30,
+   "app": "Vonage",
+   "holdout": true,
+   "notes": "MCP changed No->official: Vonage Documentation MCP + Tooling MCP. Free trial credit on signup. MCP: https://developer.vonage.com/en/mcp-server/overview",
+   "fields": {
+    "auth_methods": {
+     "truth": "api_key;basic;jwt",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "access": {
+     "truth": "free_trial",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "api_type": {
+     "truth": "rest",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "mcp": {
+     "truth": "official",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "verdict": {
+     "truth": "ready",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    }
+   }
+  },
+  {
+   "id": 35,
+   "app": "Mailchimp",
+   "holdout": true,
+   "notes": "CONFIRM: MCP changed No->official but partial: official Transactional (Mandrill) MCP + Intuit Mailchimp Claude connector; no first-party MCP for the full Marketing API. MCP: https://mailchimp.com/developer/",
+   "fields": {
+    "auth_methods": {
+     "truth": "api_key;oauth2",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "access": {
+     "truth": "self_serve_free",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "api_type": {
+     "truth": "rest",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "mcp": {
+     "truth": "official",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "verdict": {
+     "truth": "ready",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    }
+   }
+  },
+  {
+   "id": 39,
+   "app": "Threads (Meta)",
+   "holdout": false,
+   "notes": "Blocker: Meta App Review needed for permissions beyond app testers. Only community/unofficial MCP servers found. Access = admin_approval because non-tester accounts need App Review.",
+   "fields": {
+    "auth_methods": {
+     "truth": "oauth2",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "access": {
+     "truth": "admin_approval",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "api_type": {
+     "truth": "rest",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "mcp": {
+     "truth": "community",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "verdict": {
+     "truth": "ready_with_friction",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    }
+   }
+  },
+  {
+   "id": 43,
+   "app": "BigCommerce",
+   "holdout": false,
+   "notes": "MCP changed No->official but limited: storefront MCP in beta (guest shopping only). Legacy Basic auth excluded (deprecated). MCP: https://developer.bigcommerce.com/beta/mcp-server",
+   "fields": {
+    "auth_methods": {
+     "truth": "oauth2",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "access": {
+     "truth": "free_trial",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "api_type": {
+     "truth": "rest;graphql",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "mcp": {
+     "truth": "official",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "verdict": {
+     "truth": "ready",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    }
+   }
+  },
+  {
+   "id": 49,
+   "app": "Amazon Selling Partner",
+   "holdout": true,
+   "notes": "CONFIRM: Blocker: Developer registration approval + seller authorization required. Fixed evidence URL (was developer-docs.amazon/... missing .com). MCP changed No->official but dev-assistant only (sp-api-dev-mcp). other = Restricted Data Token; AWS SigV4 signing is believed no longer required, so confirm. MCP: https://github.com/amzn/selling-partner-api-samples",
+   "fields": {
+    "auth_methods": {
+     "truth": "oauth2;other",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "access": {
+     "truth": "admin_approval",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "api_type": {
+     "truth": "rest",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "mcp": {
+     "truth": "official",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "verdict": {
+     "truth": "ready_with_friction",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    }
+   }
+  },
+  {
+   "id": 52,
+   "app": "SE Ranking",
+   "holdout": true,
+   "notes": "CONFIRM: MCP changed No->official (hosted at api.seranking.com/mcp). Access changed: trial includes 100K free API credits; ongoing use needs a plan or pay-as-you-go credits. MCP: https://seranking.com/api/integrations/mcp/",
+   "fields": {
+    "auth_methods": {
+     "truth": "api_key",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "access": {
+     "truth": "free_trial",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "api_type": {
+     "truth": "rest",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "mcp": {
+     "truth": "official",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "verdict": {
+     "truth": "ready",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    }
+   }
+  },
+  {
+   "id": 58,
+   "app": "Sherlock",
+   "holdout": false,
+   "notes": "Blocker: No hosted API; local open-source CLI only. Verdict No mapped to blocked. Could only be wrapped by running the CLI yourself.",
+   "fields": {
+    "auth_methods": {
+     "truth": "none",
+     "agent": "none",
+     "hit": true,
+     "pass1": "none"
+    },
+    "access": {
+     "truth": "no_public_api",
+     "agent": "self_serve_free",
+     "hit": false,
+     "pass1": "self_serve_free"
+    },
+    "api_type": {
+     "truth": "sdk_or_cli_only",
+     "agent": "rest",
+     "hit": false,
+     "pass1": "rest"
+    },
+    "mcp": {
+     "truth": "none_found",
+     "agent": "community",
+     "hit": false,
+     "pass1": "community"
+    },
+    "verdict": {
+     "truth": "blocked",
+     "agent": "ready_with_friction",
+     "hit": false,
+     "pass1": "ready_with_friction"
+    }
+   }
+  },
+  {
+   "id": 62,
+   "app": "Vercel",
+   "holdout": true,
+   "notes": "MCP changed No->official: mcp.vercel.com (OAuth, allowlisted clients). MCP: https://vercel.com/docs/agent-resources/vercel-mcp",
+   "fields": {
+    "auth_methods": {
+     "truth": "bearer_token;oauth2",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "access": {
+     "truth": "self_serve_free",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "api_type": {
+     "truth": "rest",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "mcp": {
+     "truth": "official",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "verdict": {
+     "truth": "ready",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    }
+   }
+  },
+  {
+   "id": 66,
+   "app": "Neo4j",
+   "holdout": false,
+   "notes": "MCP changed No->official: github.com/neo4j/mcp. Self-serve via Aura Free or self-hosted. MCP: https://github.com/neo4j/mcp",
+   "fields": {
+    "auth_methods": {
+     "truth": "basic;bearer_token",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "access": {
+     "truth": "self_serve_free",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "api_type": {
+     "truth": "rest",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "mcp": {
+     "truth": "official",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "verdict": {
+     "truth": "ready",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    }
+   }
+  },
+  {
+   "id": 71,
+   "app": "Notion",
+   "holdout": false,
+   "notes": "bearer_token = internal integration secret. MCP: https://developers.notion.com/docs/mcp",
+   "fields": {
+    "auth_methods": {
+     "truth": "oauth2;bearer_token",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "access": {
+     "truth": "self_serve_free",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "api_type": {
+     "truth": "rest",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "mcp": {
+     "truth": "official",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "verdict": {
+     "truth": "ready",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    }
+   }
+  },
+  {
+   "id": 73,
+   "app": "Linear",
+   "holdout": true,
+   "notes": "MCP: https://linear.app/docs/mcp",
+   "fields": {
+    "auth_methods": {
+     "truth": "oauth2;api_key",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "access": {
+     "truth": "self_serve_free",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "api_type": {
+     "truth": "graphql",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "mcp": {
+     "truth": "official",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "verdict": {
+     "truth": "ready",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    }
+   }
+  },
+  {
+   "id": 81,
+   "app": "Stripe",
+   "holdout": true,
+   "notes": "Free test mode; OAuth via Connect. MCP: https://docs.stripe.com/mcp",
+   "fields": {
+    "auth_methods": {
+     "truth": "api_key;oauth2",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "access": {
+     "truth": "self_serve_free",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "api_type": {
+     "truth": "rest",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "mcp": {
+     "truth": "official",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "verdict": {
+     "truth": "ready",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    }
+   }
+  },
+  {
+   "id": 86,
+   "app": "QuickBooks",
+   "holdout": false,
+   "notes": "CONFIRM: Blocker: Production keys need Intuit app details / compliance review (sandbox is free). MCP changed No->official: Intuit local MCP server. Access is a judgement call (sandbox self-serve, production gated); confirm. MCP: https://github.com/intuit/quickbooks-online-mcp-server",
+   "fields": {
+    "auth_methods": {
+     "truth": "oauth2",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "access": {
+     "truth": "admin_approval",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "api_type": {
+     "truth": "rest",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "mcp": {
+     "truth": "official",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "verdict": {
+     "truth": "ready_with_friction",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    }
+   }
+  },
+  {
+   "id": 92,
+   "app": "Otter AI",
+   "holdout": false,
+   "notes": "CONFIRM: Blocker: Public REST API and webhooks are Enterprise-only; official MCP is the only self-serve path. Verdict Yes mapped to ready_with_friction (MCP-only). Confirm which Otter plans include the MCP server. MCP: https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+   "fields": {
+    "auth_methods": {
+     "truth": "oauth2",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "access": {
+     "truth": "contact_sales",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "api_type": {
+     "truth": "none",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "mcp": {
+     "truth": "official",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "verdict": {
+     "truth": "ready_with_friction",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    }
+   }
+  },
+  {
+   "id": 99,
+   "app": "YouTube Transcript",
+   "holdout": true,
+   "notes": "Third-party service (not an official YouTube API). Bearer API key; 100 free credits without a card, then $5/month. Has its own MCP at transcriptapi.com/mcp. MCP: https://transcriptapi.com/",
+   "fields": {
+    "auth_methods": {
+     "truth": "bearer_token",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "access": {
+     "truth": "free_trial",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "api_type": {
+     "truth": "rest",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "mcp": {
+     "truth": "official",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    },
+    "verdict": {
+     "truth": "ready",
+     "agent": null,
+     "hit": false,
+     "pass1": null
+    }
+   }
+  }
+ ],
+ "latest": "final"
+}

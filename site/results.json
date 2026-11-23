@@ -1,0 +1,1700 @@
+{
+ "apps": [
+  {
+   "id": 1,
+   "app": "Salesforce",
+   "category": "CRM and Sales",
+   "hint": "salesforce.com",
+   "one_liner": {
+    "value": "Enterprise CRM platform for managing customer relationships and sales.",
+    "evidence_url": "https://salesforce.com",
+    "snippet": "Salesforce leads the categories that define enterprise AI, from AI agent builders to customer support agents to AI SDRs.",
+    "confidence": 0.8
+   },
+   "auth_methods": {
+    "value": [
+     "oauth2",
+     "bearer_token"
+    ],
+    "evidence_url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest",
+    "snippet": "use either an external client app or a connected app and an OAuth 2.0 authorization flow.",
+    "confidence": 0.95
+   },
+   "access": {
+    "value": "self_serve_free",
+    "evidence_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart-oauth.html",
+    "snippet": "Complete these steps in your Developer Edition org or development sandbox.",
+    "confidence": 0.9
+   },
+   "api_type": {
+    "value": [
+     "rest"
+    ],
+    "evidence_url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest",
+    "snippet": "REST API provides you with programmatic access to your data in Salesforce.",
+    "confidence": 0.95
+   },
+   "api_breadth": {
+    "value": "large",
+    "evidence_url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest",
+    "snippet": "The flexibility and scalability of REST API make it an excellent choice for integrating Salesforce into your applications",
+    "confidence": 0.8
+   },
+   "mcp": {
+    "value": "official",
+    "evidence_url": "https://salesforce.com",
+    "snippet": "Connect tools like Cursor and Claude Code directly to Salesforce with native MCPs, APIs, Skills, and CLI commands.",
+    "confidence": 0.95
+   },
+   "mcp_url": null,
+   "sandbox_or_test_mode": {
+    "value": true,
+    "evidence_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart-oauth.html",
+    "snippet": "Complete these steps in your Developer Edition org or development sandbox.",
+    "confidence": 0.9
+   },
+   "webhooks": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "rate_limit_note": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "composio_toolkit_exists": true,
+   "verdict": "ready",
+   "llm_verdict": "ready",
+   "main_blocker": null,
+   "verdict_reason": "Salesforce offers a self-serve free Developer Edition org with a well-documented REST API and OAuth 2.0 authentication.",
+   "confidence": 0.69,
+   "needs_human": false,
+   "human_note": null,
+   "sources": [
+    "https://salesforce.com",
+    "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart-oauth.html",
+    "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest",
+    "https://www.salesforce.com/sales/partner-relationship-management/pricing",
+    "https://mcp.so/server/salesforce-mcp-server/kablewy",
+    "https://developer.salesforce.com/docs/platform/api-asynch/guide/authentication.html"
+   ],
+   "extractor_model": "qwen/qwen3.8-27b",
+   "pass": 1,
+   "changed_fields": []
+  },
+  {
+   "id": 2,
+   "app": "HubSpot",
+   "category": "CRM and Sales",
+   "hint": "hubspot.com",
+   "one_liner": {
+    "value": "CRM platform for sales, marketing, and customer service automation.",
+    "evidence_url": "https://hubspot.com",
+    "snippet": "accelerate your sales pipeline, and flag accounts showing interest",
+    "confidence": 0.9
+   },
+   "auth_methods": {
+    "value": [
+     "oauth2",
+     "api_key",
+     "bearer_token"
+    ],
+    "evidence_url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+    "snippet": "OAuth is required for multiple accounts, while static auth access tokens are used for installing in a single account at a time",
+    "confidence": 0.95
+   },
+   "access": {
+    "value": "self_serve_free",
+    "evidence_url": "https://developers.hubspot.com/docs/developer-tooling/platform/apis-by-tier",
+    "snippet": "HubSpot API availability varies by product (Marketing Hub, Sales Hub, etc.) and subscription tier (Free, Starter, Professional, Enterprise)",
+    "confidence": 0.8
+   },
+   "api_type": {
+    "value": [
+     "rest"
+    ],
+    "evidence_url": "https://github.com/HubSpot/HubSpot-public-api-spec-collection",
+    "snippet": "If you are an external developer looking for HubSpot's API documentation, please refer to our official API documentation",
+    "confidence": 0.9
+   },
+   "api_breadth": {
+    "value": "large",
+    "evidence_url": "https://hubspot.com",
+    "snippet": "2,000+ integrations",
+    "confidence": 0.7
+   },
+   "mcp": {
+    "value": "official",
+    "evidence_url": "https://developers.hubspot.com/ai-tools/mcp",
+    "snippet": "HubSpot offers two distinct MCP (Model Context Protocol) servers",
+    "confidence": 1.0
+   },
+   "mcp_url": "https://mcp.hubspot.com",
+   "sandbox_or_test_mode": {
+    "value": true,
+    "evidence_url": "https://developers.hubspot.com/docs/developer-tooling/platform/apis-by-tier",
+    "snippet": "including developer test accounts and sandboxes",
+    "confidence": 0.9
+   },
+   "webhooks": {
+    "value": true,
+    "evidence_url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+    "snippet": "Currently, the only feature using client credential tokens is the webhooks journal API",
+    "confidence": 0.9
+   },
+   "rate_limit_note": {
+    "value": "Rate limits differ by subscription tier",
+    "evidence_url": "https://developers.hubspot.com/docs/developer-tooling/platform/apis-by-tier",
+    "snippet": "Rate limits also differ by tier",
+    "confidence": 0.9
+   },
+   "composio_toolkit_exists": true,
+   "verdict": "ready",
+   "llm_verdict": "ready",
+   "main_blocker": null,
+   "verdict_reason": "HubSpot offers a public REST API with self-serve free tier access, standard OAuth2 authentication, and official MCP servers.",
+   "confidence": 0.88,
+   "needs_human": false,
+   "human_note": null,
+   "sources": [
+    "https://hubspot.com",
+    "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+    "https://github.com/HubSpot/HubSpot-public-api-spec-collection",
+    "https://developers.hubspot.com/docs/developer-tooling/platform/apis-by-tier",
+    "https://developers.hubspot.com/ai-tools/mcp",
+    "https://developers.hubspot.com/docs/apps/legacy-apps/authentication/working-with-oauth"
+   ],
+   "extractor_model": "qwen/qwen3.8-27b",
+   "pass": 1,
+   "changed_fields": []
+  },
+  {
+   "id": 3,
+   "app": "Pipedrive",
+   "category": "CRM and Sales",
+   "hint": "pipedrive.com",
+   "one_liner": {
+    "value": "CRM for tracking sales pipeline, optimizing leads, and managing deals with AI.",
+    "evidence_url": "https://pipedrive.com",
+    "snippet": "Pipedrive lets you track your sales pipeline, optimize leads, manage deals with AI and automate your entire sales process",
+    "confidence": 0.95
+   },
+   "auth_methods": {
+    "value": [
+     "oauth2",
+     "api_key"
+    ],
+    "evidence_url": "https://developers.pipedrive.com/docs/api/v1",
+    "snippet": "The API token can be obtained manually from the Pipedrive app.",
+    "confidence": 0.9
+   },
+   "access": {
+    "value": "self_serve_free",
+    "evidence_url": "https://pipedrive.com",
+    "snippet": "14-day free trial, no credit card required",
+    "confidence": 0.9
+   },
+   "api_type": {
+    "value": [
+     "rest"
+    ],
+    "evidence_url": "https://developers.pipedrive.com/docs/api/v1",
+    "snippet": "This reference helps you implement the RESTful Pipedrive API.",
+    "confidence": 0.95
+   },
+   "api_breadth": {
+    "value": "large",
+    "evidence_url": "https://devcommunity.pipedrive.com/t/open-source-pipedrive-mcp-server-155-tools-v2-first-mit/20392",
+    "snippet": "155 tools in total.",
+    "confidence": 0.8
+   },
+   "mcp": {
+    "value": "community",
+    "evidence_url": "https://devcommunity.pipedrive.com/t/open-source-pipedrive-mcp-server-155-tools-v2-first-mit/20392",
+    "snippet": "I’ve open-sourced it under MIT for anyone who’s looking to implement agentic or conversational workflows.",
+    "confidence": 0.9
+   },
+   "mcp_url": "https://www.npmjs.com/package/@ckalima/pipedrive-mcp-server",
+   "sandbox_or_test_mode": {
+    "value": true,
+    "evidence_url": "https://developers.pipedrive.com/docs/api/v1",
+    "snippet": "To test your applications, we recommend creating a new, separate Pipedrive account for sandboxing purposes.",
+    "confidence": 0.9
+   },
+   "webhooks": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "rate_limit_note": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "composio_toolkit_exists": true,
+   "verdict": "ready",
+   "llm_verdict": "ready",
+   "main_blocker": null,
+   "verdict_reason": "Pipedrive offers a self-serve free trial, a well-documented REST API with OAuth2 and API key authentication, and community MCP servers.",
+   "confidence": 0.7,
+   "needs_human": false,
+   "human_note": null,
+   "sources": [
+    "https://pipedrive.com",
+    "https://developers.pipedrive.com/docs/api/v1/Oauth",
+    "https://developers.pipedrive.com/docs/api/v1",
+    "https://www.pipedrive.com/en/solution-provider-partnership",
+    "https://devcommunity.pipedrive.com/t/open-source-pipedrive-mcp-server-155-tools-v2-first-mit/20392",
+    "https://devcommunity.pipedrive.com/t/old-api-reference/4084"
+   ],
+   "extractor_model": "qwen/qwen3.8-27b",
+   "pass": 1,
+   "changed_fields": []
+  },
+  {
+   "id": 4,
+   "app": "Attio",
+   "category": "CRM and Sales",
+   "hint": "attio.com",
+   "one_liner": {
+    "value": "CRM platform for managing customer data and sales workflows.",
+    "evidence_url": "https://attio.com",
+    "snippet": "GranolaRaised $125M Series C",
+    "confidence": 0.5
+   },
+   "auth_methods": {
+    "value": [
+     "oauth2",
+     "api_key",
+     "basic",
+     "bearer_token"
+    ],
+    "evidence_url": "https://docs.attio.com/rest-api/guides/authentication",
+    "snippet": "By implementing an OAuth 2.0 flow - By generating an API key for your workspace",
+    "confidence": 0.95
+   },
+   "access": {
+    "value": "admin_approval",
+    "evidence_url": "https://attio.com/partners/app-partners",
+    "snippet": "Submit your app for review via the developer console, and share it with your users.",
+    "confidence": 0.9
+   },
+   "api_type": {
+    "value": [
+     "rest"
+    ],
+    "evidence_url": "https://docs.attio.com/rest-api/guides/authentication",
+    "snippet": "In order to make requests to the Attio REST API, you need to generate an access token.",
+    "confidence": 0.95
+   },
+   "api_breadth": {
+    "value": "large",
+    "evidence_url": "https://docs.attio.com/rest-api/endpoint-reference/openapi",
+    "snippet": "Record created... Record merged... Record updated... Record deleted... Task created... Task updated... Task deleted",
+    "confidence": 0.8
+   },
+   "mcp": {
+    "value": "official",
+    "evidence_url": "https://docs.attio.com/mcp/overview",
+    "snippet": "Attio MCP uses OAuth authentication, so you simply log in with your Attio account—no API keys required.",
+    "confidence": 0.95
+   },
+   "mcp_url": "https://mcp.attio.com/mcp",
+   "sandbox_or_test_mode": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "webhooks": {
+    "value": true,
+    "evidence_url": "https://docs.attio.com/rest-api/endpoint-reference/openapi",
+    "snippet": "Configuring webhooks",
+    "confidence": 0.95
+   },
+   "rate_limit_note": {
+    "value": "Rate limiting documentation exists",
+    "evidence_url": "https://docs.attio.com/rest-api/endpoint-reference/openapi",
+    "snippet": "its\",\"href\":\"/rest-api/guides/rate-limiting\"",
+    "confidence": 0.8
+   },
+   "composio_toolkit_exists": true,
+   "verdict": "ready_with_friction",
+   "llm_verdict": "ready_with_friction",
+   "main_blocker": "App review required for public distribution",
+   "verdict_reason": "Self-serve API access is available, but publishing an app for other users requires submission for review via the developer console.",
+   "confidence": 0.76,
+   "needs_human": false,
+   "human_note": null,
+   "sources": [
+    "https://attio.com",
+    "https://docs.attio.com/rest-api/guides/authentication",
+    "https://docs.attio.com/rest-api/endpoint-reference/openapi",
+    "https://attio.com/partners/app-partners",
+    "https://docs.attio.com/mcp/overview",
+    "https://docs.attio.com/rest-api/tutorials/connect-an-app-through-oauth"
+   ],
+   "extractor_model": "qwen/qwen3.8-27b",
+   "pass": 1,
+   "changed_fields": []
+  },
+  {
+   "id": 5,
+   "app": "Twenty",
+   "category": "CRM and Sales",
+   "hint": "twenty.com (open-source CRM)",
+   "one_liner": {
+    "value": "Open-source CRM with REST/GraphQL API and AI agent support.",
+    "evidence_url": "https://twenty.com/pricing",
+    "snippet": "Twenty is the #1 Open Source CRM on GitHub.",
+    "confidence": 0.9
+   },
+   "auth_methods": {
+    "value": [
+     "bearer_token"
+    ],
+    "evidence_url": "https://api.twenty.com/open-api/core",
+    "snippet": "Send a Bearer token with each request: Authorization: Bearer",
+    "confidence": 0.9
+   },
+   "access": {
+    "value": "self_serve_free",
+    "evidence_url": "https://twenty.com/pricing",
+    "snippet": "Self-hosting the open source core is free.",
+    "confidence": 0.8
+   },
+   "api_type": {
+    "value": [
+     "rest",
+     "graphql"
+    ],
+    "evidence_url": "https://docs.twenty.com/developers/extend/api",
+    "snippet": "Both are available as REST and GraphQL.",
+    "confidence": 0.9
+   },
+   "api_breadth": {
+    "value": "medium",
+    "evidence_url": "https://docs.twenty.com/developers/extend/api",
+    "snippet": "CRUD on records: People, Companies, Opportunities, your custom objects.",
+    "confidence": 0.6
+   },
+   "mcp": {
+    "value": "official",
+    "evidence_url": "https://api.twenty.com/open-api/core",
+    "snippet": "The recommended way to give an LLM agent... access to your workspace is the Twenty MCP server",
+    "confidence": 0.9
+   },
+   "mcp_url": "https://api.twenty.com/mcp",
+   "sandbox_or_test_mode": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "webhooks": {
+    "value": true,
+    "evidence_url": "https://docs.twenty.com/developers/introduction",
+    "snippet": "get webhooks when records change",
+    "confidence": 0.9
+   },
+   "rate_limit_note": {
+    "value": "50 per minute on Pro plan",
+    "evidence_url": "https://twenty.com/pricing",
+    "snippet": "API calls 50 per minute",
+    "confidence": 0.9
+   },
+   "composio_toolkit_exists": true,
+   "verdict": "ready",
+   "llm_verdict": "ready",
+   "main_blocker": null,
+   "verdict_reason": "Self-serve free access (self-host or trial) with documented REST/GraphQL APIs and bearer token auth.",
+   "confidence": 0.76,
+   "needs_human": false,
+   "human_note": null,
+   "sources": [
+    "https://twenty.com",
+    "https://docs.twenty.com/developers/extend/api",
+    "https://docs.twenty.com/developers/introduction",
+    "https://twenty.com/pricing",
+    "https://api.twenty.com/open-api/core"
+   ],
+   "extractor_model": "qwen/qwen3.8-27b",
+   "pass": 1,
+   "changed_fields": []
+  },
+  {
+   "id": 6,
+   "app": "Podio",
+   "category": "CRM and Sales",
+   "hint": "podio.com",
+   "one_liner": {
+    "value": "Work management platform supporting CRM, project tracking, and approvals on a single platform.",
+    "evidence_url": "https://podio.com",
+    "snippet": "Support multiple work types—CRM, project tracking, approvals, and more—on a single platform",
+    "confidence": 0.95
+   },
+   "auth_methods": {
+    "value": [
+     "oauth2",
+     "basic"
+    ],
+    "evidence_url": "https://developers.podio.com/authentication",
+    "snippet": "Podio supports four different ways of autheticating... Server-side flow... Client-side flow... Username & password flow... App authentication flow",
+    "confidence": 0.9
+   },
+   "access": {
+    "value": "self_serve_free",
+    "evidence_url": "https://developers.podio.com/index/faq",
+    "snippet": "The Podio API is available to use for both paid and free Podio accounts. Both have full access to the API",
+    "confidence": 0.95
+   },
+   "api_type": {
+    "value": [
+     "rest"
+    ],
+    "evidence_url": "https://developers.podio.com/authentication",
+    "snippet": "You will do this by including an HTTP header with the access token like so: Authorization: OAuth2 ACCESS_TOKEN",
+    "confidence": 0.85
+   },
+   "api_breadth": {
+    "value": "large",
+    "evidence_url": "https://podio.com",
+    "snippet": "Support multiple work types—CRM, project tracking, approvals, and more—on a single platform",
+    "confidence": 0.6
+   },
+   "mcp": {
+    "value": "official",
+    "evidence_url": "https://www.progress.com/podio/documentation/using-podio/ai-and-mcp/podio-mcp-server-integration-guide",
+    "snippet": "MCP Server URL: https://mcp.podio.com/mcp",
+    "confidence": 0.95
+   },
+   "mcp_url": "https://mcp.podio.com/mcp",
+   "sandbox_or_test_mode": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "webhooks": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "rate_limit_note": {
+    "value": "Base rate limits apply to all accounts; paid accounts can purchase an API Add-on for higher limits.",
+    "evidence_url": "https://developers.podio.com/index/faq",
+    "snippet": "Both have full access to the API and the same base rate Limit A and Limit B apply... Paid accounts have an additional capability of upgrading to higher API rate limits",
+    "confidence": 0.9
+   },
+   "composio_toolkit_exists": true,
+   "verdict": "ready",
+   "llm_verdict": "ready",
+   "main_blocker": null,
+   "verdict_reason": "Podio offers a self-serve free API with standard OAuth2 authentication and an official MCP server.",
+   "confidence": 0.68,
+   "needs_human": false,
+   "human_note": null,
+   "sources": [
+    "https://podio.com",
+    "https://developers.podio.com/doc/oauth-authorization",
+    "https://developers.podio.com",
+    "https://developers.podio.com/index/faq",
+    "https://www.progress.com/podio/documentation/using-podio/ai-and-mcp/podio-mcp-server-integration-guide",
+    "https://developers.podio.com/authentication"
+   ],
+   "extractor_model": "qwen/qwen3.8-27b",
+   "pass": 1,
+   "changed_fields": []
+  },
+  {
+   "id": 7,
+   "app": "Zoho CRM",
+   "category": "CRM and Sales",
+   "hint": "zoho.com/crm",
+   "one_liner": {
+    "value": "CRM platform for managing leads, contacts, and deals with API access.",
+    "evidence_url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+    "snippet": "The Zoho CRM resources, such as Leads, Contacts, Deals, etc.",
+    "confidence": 0.9
+   },
+   "auth_methods": {
+    "value": [
+     "oauth2"
+    ],
+    "evidence_url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+    "snippet": "The Zoho CRM API uses the OAuth 2.0 protocol for authentication.",
+    "confidence": 0.95
+   },
+   "access": {
+    "value": "self_serve_free",
+    "evidence_url": "https://zoho.com/crm",
+    "snippet": "Zoho CRM's freemium edition supports up to 3 users and comes with the essentials like leads, documents, and mobile apps",
+    "confidence": 0.8
+   },
+   "api_type": {
+    "value": [
+     "rest"
+    ],
+    "evidence_url": "https://www.zoho.com/crm/developer/docs/api/v8",
+    "snippet": "Perform CRUD operations on CRM module entities and integrate with any third party application through flexible RESTful endpoints.",
+    "confidence": 0.95
+   },
+   "api_breadth": {
+    "value": "large",
+    "evidence_url": "https://www.zoho.com/crm/developer/docs/api/v8",
+    "snippet": "Metadata APIs... Core APIs... Composite API... Bulk APIs... Notification APIs... Query APIs",
+    "confidence": 0.8
+   },
+   "mcp": {
+    "value": "official",
+    "evidence_url": "https://www.zoho.com/crm/developer/docs/mcp/overview.html",
+    "snippet": "Zoho CRM provides these as pre-built MCP servers, so you don't need to build, host, or maintain any infrastructure.",
+    "confidence": 0.95
+   },
+   "mcp_url": "https://www.zoho.com/crm/developer/docs/mcp/overview.html",
+   "sandbox_or_test_mode": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "webhooks": {
+    "value": true,
+    "evidence_url": "https://www.zoho.com/crm/developer/docs/api/v8",
+    "snippet": "Get notified whenever a data change occurs inside your CRM.",
+    "confidence": 0.9
+   },
+   "rate_limit_note": {
+    "value": "API calls consume credits; free daily limit depends on edition and user count.",
+    "evidence_url": "https://www.zoho.com/crm/developer/docs/api/v8/purchase-from-dashboard.html",
+    "snippet": "Daily available free credit limit - This limit represents the number of credits available for your edition in a 24-hour rolling window.",
+    "confidence": 0.9
+   },
+   "composio_toolkit_exists": false,
+   "verdict": "ready",
+   "llm_verdict": "ready",
+   "main_blocker": null,
+   "verdict_reason": "Zoho CRM offers a self-serve free plan, standard OAuth2 authentication, and a comprehensive REST API with official MCP support.",
+   "confidence": 0.79,
+   "needs_human": false,
+   "human_note": null,
+   "sources": [
+    "https://zoho.com/crm",
+    "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+    "https://www.zoho.com/crm/developer/docs/api/v8",
+    "https://www.zoho.com/crm/developer/docs/api/v8/purchase-from-dashboard.html",
+    "https://www.zoho.com/crm/developer/docs/mcp/overview.html",
+    "https://www.zoho.com/crm/developer/docs/api/v7/oauth-overview.html"
+   ],
+   "extractor_model": "qwen/qwen3.8-27b",
+   "pass": 1,
+   "changed_fields": []
+  },
+  {
+   "id": 8,
+   "app": "Close",
+   "category": "CRM and Sales",
+   "hint": "close.com",
+   "one_liner": {
+    "value": "CRM with built-in calling, email, SMS, automation, and AI for sales teams.",
+    "evidence_url": "https://close.com",
+    "snippet": "Calling, email, SMS, automation, and AI are built in, so your team can reach more leads, follow up faster, and close more deals.",
+    "confidence": 0.95
+   },
+   "auth_methods": {
+    "value": [
+     "api_key",
+     "oauth2"
+    ],
+    "evidence_url": "https://developer.close.com/api/overview",
+    "snippet": "Two methods are supported: - API Keys — Best for scripts, internal tools, and server-side integrations. Use HTTP Basic Auth with your API key as the username and an empty password. - OAuth 2.0 — Best for user-facing integrations.",
+    "confidence": 0.95
+   },
+   "access": {
+    "value": "self_serve_free",
+    "evidence_url": "https://developer.close.com/api/overview/api-key-authentication",
+    "snippet": "API keys can be created and managed in your Close account under Settings → Developer → API Keys.",
+    "confidence": 0.8
+   },
+   "api_type": {
+    "value": [
+     "rest"
+    ],
+    "evidence_url": "https://developer.close.com/api/overview",
+    "snippet": "Close uses industry-standard REST conventions with predictable URL structures, standard HTTP methods, and JSON request/response bodies.",
+    "confidence": 0.95
+   },
+   "api_breadth": {
+    "value": "large",
+    "evidence_url": "https://developer.close.com/api/overview",
+    "snippet": "We publish an OpenAPI spec at: https://api.close.com/api/openapi.json",
+    "confidence": 0.4
+   },
+   "mcp": {
+    "value": "none_found",
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.5
+   },
+   "mcp_url": null,
+   "sandbox_or_test_mode": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "webhooks": {
+    "value": true,
+    "evidence_url": "https://developer.close.com/api/overview",
+    "snippet": "Webhooks — Subscribe to events and receive POST notifications when data changes.",
+    "confidence": 0.95
+   },
+   "rate_limit_note": {
+    "value": "Rate limits apply to all endpoints; handle 429 responses with exponential backoff.",
+    "evidence_url": "https://developer.close.com/api/overview",
+    "snippet": "Rate limits apply to all endpoints. Handle 429 responses with exponential backoff.",
+    "confidence": 0.95
+   },
+   "composio_toolkit_exists": true,
+   "verdict": "ready",
+   "llm_verdict": "ready",
+   "main_blocker": null,
+   "verdict_reason": "Close offers a public REST API with self-serve API key and OAuth2 authentication, webhooks, and documented rate limits.",
+   "confidence": 0.72,
+   "needs_human": false,
+   "human_note": null,
+   "sources": [
+    "https://close.com",
+    "https://developer.close.com/api/overview/api-key-authentication",
+    "https://developer.close.com/api/overview",
+    "https://close.com/partners",
+    "https://forum.cursor.com/t/close-mcp-server-connection/161896",
+    "https://developer.close.com/api/overview/oauth-authentication"
+   ],
+   "extractor_model": "qwen/qwen3.8-27b",
+   "pass": 1,
+   "changed_fields": []
+  },
+  {
+   "id": 9,
+   "app": "Copper",
+   "category": "CRM and Sales",
+   "hint": "copper.com",
+   "one_liner": {
+    "value": "CRM purpose-built for Google Workspace to manage sales and customer data.",
+    "evidence_url": "https://www.copper.com/partners",
+    "snippet": "We're purpose-built for Google Workspace, so it makes sense for you to have alternative CRMs for other clients.",
+    "confidence": 0.9
+   },
+   "auth_methods": {
+    "value": [
+     "api_key",
+     "oauth2"
+    ],
+    "evidence_url": "https://developer.copper.com/introduction/authentication.html",
+    "snippet": "There are two ways to access the Copper Developer API: API keys and OAuth2.0.",
+    "confidence": 1.0
+   },
+   "access": {
+    "value": "admin_approval",
+    "evidence_url": "https://developer.copper.com/introduction/oauth/index.html",
+    "snippet": "To register your application, contact us. You will need to provide the name and purpose of your application",
+    "confidence": 0.9
+   },
+   "api_type": {
+    "value": [
+     "rest"
+    ],
+    "evidence_url": "https://developer.copper.com/introduction/oauth/flow.html",
+    "snippet": "curl -H \"Authorization: Bearer {access_token}\" \\\n    https://api.copper.com/developer_api/v1/account",
+    "confidence": 0.9
+   },
+   "api_breadth": {
+    "value": "unknown",
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "mcp": {
+    "value": "official",
+    "evidence_url": "https://www.copper.com/mcp",
+    "snippet": "Yes. Copper is launching an official MCP server, built and hosted by Copper.",
+    "confidence": 0.9
+   },
+   "mcp_url": "https://www.copper.com/mcp",
+   "sandbox_or_test_mode": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "webhooks": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "rate_limit_note": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "composio_toolkit_exists": true,
+   "verdict": "ready_with_friction",
+   "llm_verdict": "ready_with_friction",
+   "main_blocker": "OAuth2.0 application registration requires contacting the vendor for approval.",
+   "verdict_reason": "While a free trial and API keys are available, the preferred OAuth2.0 method for third-party integrations requires contacting Copper to register the application and receive credentials.",
+   "confidence": 0.51,
+   "needs_human": false,
+   "human_note": null,
+   "sources": [
+    "https://copper.com",
+    "https://developer.copper.com/introduction/authentication.html",
+    "https://developer.copper.com/introduction/oauth/flow.html",
+    "https://www.copper.com/partners",
+    "https://www.copper.com/mcp",
+    "https://developer.copper.com/introduction/oauth/index.html"
+   ],
+   "extractor_model": "qwen/qwen3.8-27b",
+   "pass": 1,
+   "changed_fields": []
+  },
+  {
+   "id": 10,
+   "app": "DealCloud",
+   "category": "CRM and Sales",
+   "hint": "api.docs.dealcloud.com",
+   "one_liner": {
+    "value": "DealCloud is a CRM and sales platform with REST APIs for data management.",
+    "evidence_url": "https://api.docs.dealcloud.com/docs",
+    "snippet": "Welcome to the DealCloud API Docs! This site provides a comprehensive overview of our REST APIs",
+    "confidence": 0.9
+   },
+   "auth_methods": {
+    "value": [
+     "api_key",
+     "oauth2"
+    ],
+    "evidence_url": "https://api.docs.dealcloud.com/docs/apikeys",
+    "snippet": "Obtaining an API Key... click Enable. Then click Copy API Key to Clipboard",
+    "confidence": 0.9
+   },
+   "access": {
+    "value": "admin_approval",
+    "evidence_url": "https://api.docs.dealcloud.com/docs/apikeys",
+    "snippet": "To enable API access, ensure the intended user is assigned to a user group with the appropriate permissions... enable \"API\".",
+    "confidence": 0.8
+   },
+   "api_type": {
+    "value": [
+     "rest"
+    ],
+    "evidence_url": "https://api.docs.dealcloud.com/docs",
+    "snippet": "This site provides a comprehensive overview of our REST APIs, their capabilities, and available endpoints.",
+    "confidence": 0.95
+   },
+   "api_breadth": {
+    "value": "large",
+    "evidence_url": "https://api.docs.dealcloud.com/docs",
+    "snippet": "Authentication – Provides tokens... User Management... Schema... Data... Backups... Publications... Relationship Intelligence",
+    "confidence": 0.8
+   },
+   "mcp": {
+    "value": "official",
+    "evidence_url": "https://api.docs.dealcloud.com/mcp/getting-started",
+    "snippet": "DealCloud provides a default MCP Server out-of-the-box without any configuration required.",
+    "confidence": 0.95
+   },
+   "mcp_url": "https://[tenant].my.intapp.com/mcp/celeste/DealCloud",
+   "sandbox_or_test_mode": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "webhooks": {
+    "value": true,
+    "evidence_url": "https://api.docs.dealcloud.com/docs",
+    "snippet": "Publications – Endpoints for working with real-time event APIs.",
+    "confidence": 0.8
+   },
+   "rate_limit_note": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "composio_toolkit_exists": false,
+   "verdict": "ready_with_friction",
+   "llm_verdict": "ready_with_friction",
+   "main_blocker": "API access requires admin to enable 'API' capability in user group permissions.",
+   "verdict_reason": "While self-serve for existing customers, API access is gated behind admin configuration of user group permissions, and MCP requires a specific 'Celeste' license.",
+   "confidence": 0.68,
+   "needs_human": false,
+   "human_note": null,
+   "sources": [
+    "https://api.docs.dealcloud.com/docs/apikeys",
+    "https://api.docs.dealcloud.com/docs",
+    "https://api.docs.dealcloud.com/mcp/getting-started",
+    "https://api.docs.dealcloud.com/mcp/authentication",
+    "https://api.docs.dealcloud.com/sdk/python-1.X/reference/api-reference"
+   ],
+   "extractor_model": "qwen/qwen3.8-27b",
+   "pass": 1,
+   "changed_fields": []
+  },
+  {
+   "id": 11,
+   "app": "Zendesk",
+   "category": "Support and Helpdesk",
+   "hint": "zendesk.com",
+   "one_liner": {
+    "value": "Customer support and helpdesk platform for managing tickets and conversations.",
+    "evidence_url": "https://zendesk.com",
+    "snippet": "Get faster resolutions, happier customers and a team that does more with less",
+    "confidence": 0.8
+   },
+   "auth_methods": {
+    "value": [
+     "oauth2",
+     "basic",
+     "bearer_token",
+     "jwt"
+    ],
+    "evidence_url": "https://developer.zendesk.com/documentation/api-basics/authentication/using-the-api-with-2-factor-authentication-enabled",
+    "snippet": "You can authenticate Zendesk API requests using an OAuth access token.",
+    "confidence": 0.9
+   },
+   "access": {
+    "value": "self_serve_free",
+    "evidence_url": "https://www.speakeasy.com/mcp/using-mcp/mcp-server-providers/zendesk",
+    "snippet": "In your Zendesk dashboard, click the Settings icon in the sidebar.",
+    "confidence": 0.8
+   },
+   "api_type": {
+    "value": [
+     "rest"
+    ],
+    "evidence_url": "https://developer.zendesk.com/documentation/api-basics/getting-started/zendesk-api-resources",
+    "snippet": "Try out various API requests with Postman.",
+    "confidence": 0.9
+   },
+   "api_breadth": {
+    "value": "large",
+    "evidence_url": "https://developer.zendesk.com/api-reference/reseller/getting_started",
+    "snippet": "The Zendesk Reseller API allows you, as a reseller partner of Zendesk, to create new Zendesk Support instances.",
+    "confidence": 0.6
+   },
+   "mcp": {
+    "value": "community",
+    "evidence_url": "https://www.speakeasy.com/mcp/using-mcp/mcp-server-providers/zendesk",
+    "snippet": "As Zendesk doesn’t provide an official MCP server, this guide uses the open-source zendesk-mcp-server",
+    "confidence": 0.9
+   },
+   "mcp_url": null,
+   "sandbox_or_test_mode": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "webhooks": {
+    "value": true,
+    "evidence_url": "https://developer.zendesk.com/documentation/conversations/getting-started/api-authentication",
+    "snippet": "app configuration details including integrations, webhooks, and the switchboard",
+    "confidence": 0.7
+   },
+   "rate_limit_note": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "composio_toolkit_exists": true,
+   "verdict": "ready",
+   "llm_verdict": "ready",
+   "main_blocker": null,
+   "verdict_reason": "Zendesk offers a public REST API with self-serve authentication methods including OAuth2 and API tokens.",
+   "confidence": 0.62,
+   "needs_human": false,
+   "human_note": null,
+   "sources": [
+    "https://zendesk.com",
+    "https://developer.zendesk.com/documentation/api-basics/authentication/using-the-api-with-2-factor-authentication-enabled",
+    "https://developer.zendesk.com/documentation/api-basics/getting-started/zendesk-api-resources",
+    "https://developer.zendesk.com/api-reference/reseller/getting_started",
+    "https://www.speakeasy.com/mcp/using-mcp/mcp-server-providers/zendesk",
+    "https://developer.zendesk.com/documentation/conversations/getting-started/api-authentication"
+   ],
+   "extractor_model": "qwen/qwen3.8-27b",
+   "pass": 1,
+   "changed_fields": []
+  },
+  {
+   "id": 12,
+   "app": "Intercom",
+   "category": "Support and Helpdesk",
+   "hint": "intercom.com",
+   "one_liner": {
+    "value": "Customer service platform with AI agent and helpdesk features.",
+    "evidence_url": "https://intercom.com",
+    "snippet": "Combine Intercom with Fin for a single, natively integrated customer service platform.",
+    "confidence": 0.9
+   },
+   "auth_methods": {
+    "value": [
+     "oauth2",
+     "bearer_token"
+    ],
+    "evidence_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication/setting-up-oauth",
+    "snippet": "If you are building a public integration... you are required to set up OAuth... If you are building a private app... you can use Access Tokens",
+    "confidence": 0.95
+   },
+   "access": {
+    "value": "self_serve_free",
+    "evidence_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication/setting-up-oauth",
+    "snippet": "Each development workspace automatically gives you the option to use OAuth.",
+    "confidence": 0.8
+   },
+   "api_type": {
+    "value": [
+     "rest"
+    ],
+    "evidence_url": "https://developers.intercom.com/docs/references/rest-api/api.intercom.io",
+    "snippet": "Intercom API [Introduction]... [Admins]... [Companies]... [Contacts]",
+    "confidence": 0.95
+   },
+   "api_breadth": {
+    "value": "large",
+    "evidence_url": "https://developers.intercom.com/docs/references/rest-api/api.intercom.io",
+    "snippet": "Admins... AI Content... Articles... Audiences... Auth Tokens... Away Status Reasons... Banners... Brands... Calls... Companies... Contacts",
+    "confidence": 0.9
+   },
+   "mcp": {
+    "value": "official",
+    "evidence_url": "https://www.intercom.com/integrations/connectors/intercom-mcp-server",
+    "snippet": "Connect via the Streamable HTTP endpoint at https://mcp.intercom.com/mcp",
+    "confidence": 0.95
+   },
+   "mcp_url": "https://mcp.intercom.com/mcp",
+   "sandbox_or_test_mode": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "webhooks": {
+    "value": true,
+    "evidence_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication/setting-up-oauth",
+    "snippet": "if you need to setup a webhook to trigger when a user/lead is created then you will need to select the \"Read and write users\" permission scopes",
+    "confidence": 0.9
+   },
+   "rate_limit_note": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "composio_toolkit_exists": true,
+   "verdict": "ready",
+   "llm_verdict": "ready",
+   "main_blocker": null,
+   "verdict_reason": "Intercom offers a self-serve REST API with OAuth2 and Access Token authentication, and an official MCP server.",
+   "confidence": 0.71,
+   "needs_human": false,
+   "human_note": null,
+   "sources": [
+    "https://intercom.com",
+    "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication/setting-up-oauth",
+    "https://developers.intercom.com/docs/references/rest-api/api.intercom.io",
+    "https://www.intercom.com/solution-partner-program",
+    "https://www.intercom.com/integrations/connectors/intercom-mcp-server",
+    "https://developers.intercom.com/docs/references/rest-api/api.intercom.io/companies"
+   ],
+   "extractor_model": "qwen/qwen3.8-27b",
+   "pass": 1,
+   "changed_fields": []
+  },
+  {
+   "id": 13,
+   "app": "Freshdesk",
+   "category": "Support and Helpdesk",
+   "hint": "freshdesk.com",
+   "one_liner": {
+    "value": "AI-powered customer support and helpdesk software for managing tickets and service.",
+    "evidence_url": "https://freshdesk.com",
+    "snippet": "AI-powered service, at your pace",
+    "confidence": 0.8
+   },
+   "auth_methods": {
+    "value": [
+     "api_key",
+     "oauth2"
+    ],
+    "evidence_url": "https://developers.freshdesk.com/api",
+    "snippet": "make sure that the \"APIkey:X\" is Base64-encoded before passing it as an \"Authorization\" header",
+    "confidence": 0.9
+   },
+   "access": {
+    "value": "self_serve_free",
+    "evidence_url": "https://support.freshdesk.com/support/solutions/articles/50000011778-understanding-freshdesk-pricing-plans",
+    "snippet": "you can continue using the product by enrolling in the Free Program or by purchasing a paid plan",
+    "confidence": 0.9
+   },
+   "api_type": {
+    "value": [
+     "rest"
+    ],
+    "evidence_url": "https://developers.freshdesk.com/api",
+    "snippet": "Content-Type: application/json; charset=utf-8",
+    "confidence": 0.9
+   },
+   "api_breadth": {
+    "value": "large",
+    "evidence_url": "https://developers.freshdesk.com/api",
+    "snippet": "List All Ticket Fields /api/v2/ticket_fields",
+    "confidence": 0.6
+   },
+   "mcp": {
+    "value": "official",
+    "evidence_url": "https://support.freshdesk.com/support/solutions/articles/50000012670-model-context-protocol-mcp-integration-in-freshdesk-eap-",
+    "snippet": "Starting September 10, 2026, the Freshworks MCP integration is generally available",
+    "confidence": 0.9
+   },
+   "mcp_url": "https://<subdomain>.freshdesk.com/mcp",
+   "sandbox_or_test_mode": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "webhooks": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "rate_limit_note": {
+    "value": "Rate limits vary by plan; check X-RateLimit-Total header for calls per minute.",
+    "evidence_url": "https://developers.freshdesk.com/api",
+    "snippet": "For plan-wise values, see the rate limits for your plan above.",
+    "confidence": 0.9
+   },
+   "composio_toolkit_exists": true,
+   "verdict": "ready",
+   "llm_verdict": "ready",
+   "main_blocker": null,
+   "verdict_reason": "Freshdesk offers a self-serve free plan with a documented REST API supporting API key and OAuth2 authentication.",
+   "confidence": 0.66,
+   "needs_human": false,
+   "human_note": null,
+   "sources": [
+    "https://freshdesk.com",
+    "https://developers.freshdesk.com/api",
+    "https://support.freshdesk.com/support/solutions/articles/50000011778-understanding-freshdesk-pricing-plans",
+    "https://support.freshdesk.com/support/solutions/articles/50000012670-model-context-protocol-mcp-integration-in-freshdesk-eap-",
+    "https://support.freshdesk.com/support/solutions/articles/50000014411-freshworks-mcp-security"
+   ],
+   "extractor_model": "qwen/qwen3.8-27b",
+   "pass": 1,
+   "changed_fields": []
+  },
+  {
+   "id": 14,
+   "app": "Front",
+   "category": "Support and Helpdesk",
+   "hint": "front.com",
+   "one_liner": {
+    "value": "All-in-one support platform for collaborative shared inboxes and customer communication.",
+    "evidence_url": "https://front.com/partners/integration",
+    "snippet": "All-in-one support platform",
+    "confidence": 0.9
+   },
+   "auth_methods": {
+    "value": [
+     "api_key"
+    ],
+    "evidence_url": "https://community.front.com/api-news-updates-40/the-front-mcp-server-is-here-beta-3712",
+    "snippet": "The Front MCP server uses the same API tokens as the Core API.",
+    "confidence": 0.8
+   },
+   "access": {
+    "value": "self_serve_free",
+    "evidence_url": "https://front.com/partners/integration",
+    "snippet": "Free sandbox dev",
+    "confidence": 0.9
+   },
+   "api_type": {
+    "value": [
+     "rest"
+    ],
+    "evidence_url": "https://front.com/product/integrations-api",
+    "snippet": "often through REST APIs over HTTP",
+    "confidence": 0.9
+   },
+   "api_breadth": {
+    "value": "large",
+    "evidence_url": "https://help.front.com/en/articles/5038272",
+    "snippet": "inboxes, channels, rules, macros, tags, teammates, teammate groups, views, message templates, signatures, custom fields, shifts, time off responders, Topics, and AI agents",
+    "confidence": 0.8
+   },
+   "mcp": {
+    "value": "official",
+    "evidence_url": "https://community.front.com/api-news-updates-40/the-front-mcp-server-is-here-beta-3712",
+    "snippet": "We're excited to announce the beta release of the Front MCP server",
+    "confidence": 0.9
+   },
+   "mcp_url": "https://community.front.com/groups/beta-mcp-server-83",
+   "sandbox_or_test_mode": {
+    "value": true,
+    "evidence_url": "https://front.com/partners/integration",
+    "snippet": "Free sandbox dev",
+    "confidence": 0.9
+   },
+   "webhooks": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "rate_limit_note": {
+    "value": "Rate limits are listed in the Front Developer Portal.",
+    "evidence_url": "https://help.front.com/en/articles/5038272",
+    "snippet": "Rate limits are listed in the Front Developer Portal.",
+    "confidence": 0.9
+   },
+   "composio_toolkit_exists": true,
+   "verdict": "ready",
+   "llm_verdict": "ready",
+   "main_blocker": null,
+   "verdict_reason": "Front offers a self-serve free sandbox, REST API, and official MCP server, allowing developers to build integrations immediately.",
+   "confidence": 0.78,
+   "needs_human": false,
+   "human_note": null,
+   "sources": [
+    "https://front.com",
+    "https://front.com/partners/integration",
+    "https://community.front.com/api-news-updates-40/the-front-mcp-server-is-here-beta-3712",
+    "https://front.com/pricing",
+    "https://front.com/product/integrations-api",
+    "https://help.front.com/en/articles/5038272"
+   ],
+   "extractor_model": "qwen/qwen3.8-27b",
+   "pass": 1,
+   "changed_fields": []
+  },
+  {
+   "id": 56,
+   "app": "Firecrawl",
+   "category": "Data, SEO and Scraping",
+   "hint": "firecrawl.dev",
+   "one_liner": {
+    "value": "Scrape and search web content via API",
+    "evidence_url": "https://firecrawl.dev",
+    "snippet": "Firecrawl connects your agents to the web",
+    "confidence": 0.9
+   },
+   "auth_methods": {
+    "value": [
+     "api_key",
+     "oauth2"
+    ],
+    "evidence_url": "https://docs.firecrawl.dev/api-reference/introduction",
+    "snippet": "The header should contain Bearer fc-123456789, where fc-123456789 represents your API Key.",
+    "confidence": 0.9
+   },
+   "access": {
+    "value": "self_serve_free",
+    "evidence_url": "https://firecrawl.dev",
+    "snippet": "app = Firecrawl(api_key=\"fc-YOUR_API_KEY\")",
+    "confidence": 0.9
+   },
+   "api_type": {
+    "value": [
+     "rest"
+    ],
+    "evidence_url": "https://docs.firecrawl.dev/api-reference/introduction",
+    "snippet": "Authentication compares every option.",
+    "confidence": 0.9
+   },
+   "api_breadth": {
+    "value": "medium",
+    "evidence_url": "https://docs.firecrawl.dev/api-reference/introduction",
+    "snippet": "/v1/scrape and /v1/search also work without a key",
+    "confidence": 0.6
+   },
+   "mcp": {
+    "value": "official",
+    "evidence_url": "https://github.com/firecrawl/firecrawl-mcp-server",
+    "snippet": "This is an MCP endpoint, not a browser page",
+    "confidence": 0.9
+   },
+   "mcp_url": "https://mcp.firecrawl.dev/v2/mcp",
+   "sandbox_or_test_mode": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "webhooks": {
+    "value": false,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "rate_limit_note": {
+    "value": "Keyless endpoints are rate‑limited",
+    "evidence_url": "https://docs.firecrawl.dev/api-reference/introduction",
+    "snippet": "/v1/scrape and /v1/search also work without a key, with limits",
+    "confidence": 0.9
+   },
+   "composio_toolkit_exists": true,
+   "verdict": "ready",
+   "llm_verdict": "ready",
+   "main_blocker": null,
+   "verdict_reason": "Public REST API with self‑serve API keys and OAuth, no restrictions",
+   "confidence": 0.67,
+   "needs_human": false,
+   "human_note": null,
+   "sources": [
+    "https://firecrawl.dev",
+    "https://docs.firecrawl.dev/api-reference/introduction",
+    "https://www.firecrawl.dev/developer-index",
+    "https://docs.firecrawl.dev/partner-credits",
+    "https://github.com/firecrawl/firecrawl-mcp-server",
+    "https://docs.firecrawl.dev/api-reference/v2-introduction"
+   ],
+   "extractor_model": "openai/gpt-oss-20b",
+   "pass": 1,
+   "changed_fields": []
+  },
+  {
+   "id": 57,
+   "app": "Bright Data",
+   "category": "Data, SEO and Scraping",
+   "hint": "brightdata.com",
+   "one_liner": {
+    "value": "Web‑scraping and proxy services for AI agents",
+    "evidence_url": "https://brightdata.com",
+    "snippet": "Bright Data",
+    "confidence": 0.9
+   },
+   "auth_methods": {
+    "value": [
+     "api_key"
+    ],
+    "evidence_url": "https://docs.brightdata.com/api-reference/proxy/proxy_api_auth",
+    "snippet": "Using API key to access proxy networks over REST API",
+    "confidence": 0.9
+   },
+   "access": {
+    "value": "self_serve_free",
+    "evidence_url": "https://brightdata.com/pricing/mcp-server",
+    "snippet": "new users get free credit for testing",
+    "confidence": 0.9
+   },
+   "api_type": {
+    "value": [
+     "rest"
+    ],
+    "evidence_url": "https://docs.brightdata.com/api-reference/proxy/proxy_api_auth",
+    "snippet": "Full compliant with REST API",
+    "confidence": 0.9
+   },
+   "api_breadth": {
+    "value": "medium",
+    "evidence_url": "https://docs.brightdata.com/api-reference/proxy/proxy_api_auth",
+    "snippet": "API key enables access to proxy networks",
+    "confidence": 0.6
+   },
+   "mcp": {
+    "value": "official",
+    "evidence_url": "https://brightdata.com/pricing/mcp-server",
+    "snippet": "Explore the MCP GitHub repository",
+    "confidence": 0.9
+   },
+   "mcp_url": "https://github.com/brightdata/brightdata-mcp",
+   "sandbox_or_test_mode": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "webhooks": {
+    "value": false,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "rate_limit_note": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "composio_toolkit_exists": true,
+   "verdict": "ready",
+   "llm_verdict": "ready",
+   "main_blocker": null,
+   "verdict_reason": "Bright Data offers a self‑serve free tier, REST API with API key auth, and documented MCP integration.",
+   "confidence": 0.57,
+   "needs_human": false,
+   "human_note": null,
+   "sources": [
+    "https://brightdata.com",
+    "https://docs.brightdata.com/api-reference/proxy/proxy_api_auth",
+    "https://docs.brightdata.com/products/scraper-studio/quickstart",
+    "https://brightdata.com/partners/solution-partner",
+    "https://brightdata.com/pricing/mcp-server",
+    "https://docs.brightdata.com/api-reference/authentication"
+   ],
+   "extractor_model": "openai/gpt-oss-20b",
+   "pass": 1,
+   "changed_fields": []
+  },
+  {
+   "id": 58,
+   "app": "Sherlock",
+   "category": "Data, SEO and Scraping",
+   "hint": "github.com/sherlock-project/sherlock",
+   "one_liner": {
+    "value": "Searches usernames across multiple social media platforms to find linked accounts.",
+    "evidence_url": "https://ubos.tech/mcp/sherlock-mcp-server",
+    "snippet": "A FastMCP-based tool for searching usernames across multiple social media platforms using Sherlock.",
+    "confidence": 0.9
+   },
+   "auth_methods": {
+    "value": [
+     "none"
+    ],
+    "evidence_url": "https://github.com/sherlock-project/api",
+    "snippet": "This REST API is built on top of Django REST Framework",
+    "confidence": 0.4
+   },
+   "access": {
+    "value": "self_serve_free",
+    "evidence_url": "https://github.com/sherlock-project/api",
+    "snippet": "git clone https://github.com/sherlock-project/api.git",
+    "confidence": 0.6
+   },
+   "api_type": {
+    "value": [
+     "rest"
+    ],
+    "evidence_url": "https://github.com/sherlock-project/api",
+    "snippet": "This REST API is built on top of Django REST Framework",
+    "confidence": 0.9
+   },
+   "api_breadth": {
+    "value": "small",
+    "evidence_url": "https://ubos.tech/mcp/sherlock-mcp-server",
+    "snippet": "get_links(username: str): Search for a username across standard social media platforms",
+    "confidence": 0.7
+   },
+   "mcp": {
+    "value": "community",
+    "evidence_url": "https://ubos.tech/mcp/sherlock-mcp-server",
+    "snippet": "Sherlock MCP Server by qKitNp",
+    "confidence": 0.9
+   },
+   "mcp_url": "https://ubos.tech/mcp/sherlock-mcp-server",
+   "sandbox_or_test_mode": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "webhooks": {
+    "value": false,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "rate_limit_note": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "composio_toolkit_exists": false,
+   "verdict": "ready_with_friction",
+   "llm_verdict": "ready",
+   "main_blocker": null,
+   "verdict_reason": "The project provides a self-hostable REST API and a community MCP server with no apparent authentication barriers.",
+   "confidence": 0.49,
+   "needs_human": false,
+   "human_note": null,
+   "sources": [
+    "https://github.com/sherlock-project/api",
+    "https://docs.sherlock.xyz/audit-contests-deprecated-replaced-by-audit-engine/referral-program",
+    "https://ubos.tech/mcp/sherlock-mcp-server"
+   ],
+   "extractor_model": "qwen/qwen3.8-27b",
+   "pass": 1,
+   "changed_fields": []
+  },
+  {
+   "id": 59,
+   "app": "Waterfall.io",
+   "category": "Data, SEO and Scraping",
+   "hint": "waterfall.io (contact/company intel)",
+   "one_liner": {
+    "value": "B2B data enrichment API",
+    "evidence_url": "https://waterfall.io",
+    "snippet": "Waterfall enrichment is how you get accurate, affordable B2B data.",
+    "confidence": 0.9
+   },
+   "auth_methods": {
+    "value": [
+     "api_key"
+    ],
+    "evidence_url": "https://docs.waterfall.io/v1/introduction",
+    "snippet": "Send your API key in the x-api-key header.",
+    "confidence": 0.9
+   },
+   "access": {
+    "value": "admin_approval",
+    "evidence_url": "https://docs.waterfall.io/v1/faq",
+    "snippet": "API access is available by approval.",
+    "confidence": 0.9
+   },
+   "api_type": {
+    "value": [
+     "rest"
+    ],
+    "evidence_url": "https://docs.waterfall.io/v1/introduction",
+    "snippet": "The Waterfall API is available at https://api.waterfall.io.",
+    "confidence": 0.9
+   },
+   "api_breadth": {
+    "value": "medium",
+    "evidence_url": "https://docs.waterfall.io/v1/introduction",
+    "snippet": "Endpoints: Search Contact, Prospector, Contact Enrichment, etc.",
+    "confidence": 0.6
+   },
+   "mcp": {
+    "value": "none_found",
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.5
+   },
+   "mcp_url": null,
+   "sandbox_or_test_mode": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "webhooks": {
+    "value": true,
+    "evidence_url": "https://docs.waterfall.io/v1/faq",
+    "snippet": "Waterfall sends the Finder payload to that URL when processing completes.",
+    "confidence": 0.9
+   },
+   "rate_limit_note": {
+    "value": "Default 50 requests per 60 seconds unless overridden by master key.",
+    "evidence_url": "https://docs.waterfall.io/v1/api-keys-create",
+    "snippet": "If omitted, per_interval defaults to 50 requests per 60 seconds.",
+    "confidence": 0.9
+   },
+   "composio_toolkit_exists": false,
+   "verdict": "ready_with_friction",
+   "llm_verdict": "ready_with_friction",
+   "main_blocker": null,
+   "verdict_reason": "Requires admin approval to obtain API key, but otherwise offers REST API with API key auth and webhooks.",
+   "confidence": 0.72,
+   "needs_human": false,
+   "human_note": null,
+   "sources": [
+    "https://waterfall.io",
+    "https://docs.waterfall.io/v1/api-keys-create",
+    "https://docs.waterfall.io/v1/faq",
+    "https://pipe0.com/blog/waterfall-enrichment-mcp-claude-code",
+    "https://docs.waterfall.io/v1/introduction",
+    "https://docs.waterfall.io/v1/about-waterfall"
+   ],
+   "extractor_model": "openai/gpt-oss-20b",
+   "pass": 1,
+   "changed_fields": []
+  },
+  {
+   "id": 60,
+   "app": "Clay",
+   "category": "Data, SEO and Scraping",
+   "hint": "clay.com",
+   "one_liner": {
+    "value": "AI‑powered data orchestration platform",
+    "evidence_url": "https://clay.com",
+    "snippet": "Build systems to grow revenue",
+    "confidence": 0.9
+   },
+   "auth_methods": {
+    "value": [
+     "jwt"
+    ],
+    "evidence_url": "https://university.clay.com/docs/http-api-with-jwt-authentication-integration-overview",
+    "snippet": "HTTP API with JWT Authentication action connects Clay to APIs that issue short‑lived JWT tokens",
+    "confidence": 0.9
+   },
+   "access": {
+    "value": "self_serve_free",
+    "evidence_url": "https://clay.com",
+    "snippet": "Build systems to grow revenue",
+    "confidence": 0.9
+   },
+   "api_type": {
+    "value": [
+     "rest"
+    ],
+    "evidence_url": "https://university.clay.com/docs/http-api-integration-overview",
+    "snippet": "HTTP API enrichment",
+    "confidence": 0.9
+   },
+   "api_breadth": {
+    "value": "medium",
+    "evidence_url": "https://university.clay.com/docs/http-api-integration-overview",
+    "snippet": "HTTP method: GET, POST, PUT, or DELETE",
+    "confidence": 0.6
+   },
+   "mcp": {
+    "value": "official",
+    "evidence_url": "https://www.scalekit.com/blog/clay-mcp-vs-api",
+    "snippet": "Scalekit ships Clay as an MCP connector under the slug claymcp",
+    "confidence": 0.9
+   },
+   "mcp_url": null,
+   "sandbox_or_test_mode": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "webhooks": {
+    "value": true,
+    "evidence_url": "https://www.scalekit.com/blog/clay-mcp-vs-api",
+    "snippet": "Event notification when a run finishes\nYes: signed delivery with X-Clay-Signature",
+    "confidence": 0.9
+   },
+   "rate_limit_note": {
+    "value": "No explicit rate limits documented",
+    "evidence_url": "https://university.clay.com/docs/http-api-with-jwt-authentication-integration-overview",
+    "snippet": "The token is automatically refreshed approximately every 55 minutes",
+    "confidence": 0.8
+   },
+   "composio_toolkit_exists": true,
+   "verdict": "ready",
+   "llm_verdict": "ready",
+   "main_blocker": null,
+   "verdict_reason": "Public REST API with JWT auth is self‑serve and fully documented",
+   "confidence": 0.76,
+   "needs_human": false,
+   "human_note": null,
+   "sources": [
+    "https://clay.com",
+    "https://university.clay.com/docs/http-api-with-jwt-authentication-integration-overview",
+    "https://university.clay.com/docs/http-api-integration-overview",
+    "https://www.scalekit.com/blog/clay-mcp-vs-api",
+    "https://www.clay.com/partners/integrations",
+    "https://www.clay.com/pricing"
+   ],
+   "extractor_model": "openai/gpt-oss-20b",
+   "pass": 1,
+   "changed_fields": []
+  },
+  {
+   "id": 61,
+   "app": "GitHub",
+   "category": "Developer, Infra and Data platforms",
+   "hint": "docs.github.com/rest",
+   "one_liner": {
+    "value": "Create integrations, retrieve data, and automate workflows with the GitHub REST API.",
+    "evidence_url": "https://docs.github.com/rest",
+    "snippet": "Create integrations, retrieve data, and automate your workflows with the GitHub REST API.",
+    "confidence": 0.95
+   },
+   "auth_methods": {
+    "value": [
+     "bearer_token",
+     "oauth2",
+     "basic",
+     "jwt"
+    ],
+    "evidence_url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+    "snippet": "You can create a personal access token, generate a token with a GitHub App, or use the built-in GITHUB_TOKEN",
+    "confidence": 0.9
+   },
+   "access": {
+    "value": "self_serve_free",
+    "evidence_url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+    "snippet": "You can create a personal access token, generate a token with a GitHub App",
+    "confidence": 0.8
+   },
+   "api_type": {
+    "value": [
+     "rest"
+    ],
+    "evidence_url": "https://docs.github.com/rest",
+    "snippet": "GitHub REST API documentation",
+    "confidence": 0.95
+   },
+   "api_breadth": {
+    "value": "large",
+    "evidence_url": "https://docs.github.com/rest",
+    "snippet": "The GitHub REST API is fully described in an OpenAPI compliant document.",
+    "confidence": 0.6
+   },
+   "mcp": {
+    "value": "official",
+    "evidence_url": "https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-in-your-ide/customize-copilot/extend-copilot-with-tools-and-context/set-up-the-github-mcp-server",
+    "snippet": "The remote GitHub MCP server uses one-click OAuth authentication by default",
+    "confidence": 0.95
+   },
+   "mcp_url": null,
+   "sandbox_or_test_mode": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "webhooks": {
+    "value": null,
+    "evidence_url": null,
+    "snippet": null,
+    "confidence": 0.0
+   },
+   "rate_limit_note": {
+    "value": "You can make more requests per hour when you are authenticated.",
+    "evidence_url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+    "snippet": "Additionally, you can make more requests per hour when you are authenticated.",
+    "confidence": 0.9
+   },
+   "composio_toolkit_exists": true,
+   "verdict": "ready",
+   "llm_verdict": "ready",
+   "main_blocker": null,
+   "verdict_reason": "GitHub offers a self-serve REST API with multiple standard authentication methods including OAuth2 and personal access tokens.",
+   "confidence": 0.67,
+   "needs_human": false,
+   "human_note": null,
+   "sources": [
+    "https://docs.github.com/rest",
+    "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+    "https://docs.github.com/en/get-started/using-github-docs/github-docs-api",
+    "https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-in-your-ide/customize-copilot/extend-copilot-with-tools-and-context/set-up-the-github-mcp-server",
+    "https://docs.github.com/rest/using-the-rest-api/getting-started-with-the-rest-api",
+    "https://docs.github.com/en/apps/creating-github-apps/authenticating-with-a-github-app/authenticating-as-a-github-app"
+   ],
+   "extractor_model": "qwen/qwen3.8-27b",
+   "pass": 1,
+   "changed_fields": []
+  }
+ ],
+ "overrides": []
+}

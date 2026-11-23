@@ -1,0 +1,25 @@
+# Pinned to the major versions this code was written against: these SDKs
+# rename things between major versions.
+
+# Search, scrape and Composio's own toolkit catalogue
+composio>=0.34,<1
+
+# LLM providers: Groq = extractor + critic, Gemini = tie-breaker
+groq>=1.7,<2
+google-genai>=3.6,<4
+tiktoken>=0.8           # approximate token counts to stay under Groq's per-request cap
+
+# Fetching and cleaning pages (fallback when Composio scrape fails)
+httpx>=0.27
+trafilatura>=1.12
+playwright>=1.45        # browser loop for JS-heavy pages; run `playwright install chromium` once
+
+# Data, validation, analysis
+pydantic>=2.7
+pandas>=2.2
+rapidfuzz>=3.9          # fuzzy "is this snippet really on the page?" check
+python-dotenv>=1.0
+tqdm>=4.66
+
+# Site
+jinja2>=3.1
